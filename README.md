@@ -53,7 +53,7 @@ Sistema corporativo de gestão de solicitações de reembolso, construído sobre
 
 ## 🔐 Sobre a autenticação nesta versão
 
-Esta versão usa **autenticação simplificada** (Basic Auth com usuário técnico fixo no Destination) para fins de demonstração. O modelo de segurança **XSUAA completo já está especificado** em `backend/xs-security.json` (scopes, role-templates e role-collections), com o caminho de reativação documentado — decisão de escopo consciente, não limitação técnica. Detalhes em [`backend/readme.md`](./backend/readme.md).
+Esta versão usa **autenticação simplificada** (Basic Auth com usuário técnico fixo no Destination) para fins de demonstração. O modelo de segurança **XSUAA completo já está especificado** em `backend/xs-security.json` (scopes, role-templates e role-collections), com o caminho de reativação documentado — decisão de escopo consciente, não limitação técnica.
 
 ## ▶️ Rodando o backend localmente
 
