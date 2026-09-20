@@ -1,0 +1,8 @@
+{
+    "_Type": "Action.Type.Message",
+    "Message": "$(L,Action_Reset_Message)",
+    "Title": "$(L,Action_Reset_Title)",
+    "OKCaption": "$(L,Action_Yes)",
+    "OnOK": "/ReembolsoApp/Rules/Application/ResetAppSettingsAndLogout.js",
+    "CancelCaption": "$(L,Action_No)"
+}

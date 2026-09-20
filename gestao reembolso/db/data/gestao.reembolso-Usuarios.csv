@@ -1,0 +1,4 @@
+email;nome;role
+alice;Alice Mock;APROVADOR
+solicitante@empresa.com;Solicitante Teste;SOLICITANTE
+aprovador@empresa.com;Gestor Aprovador;APROVADOR

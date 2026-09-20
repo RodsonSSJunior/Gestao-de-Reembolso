@@ -1,0 +1,10 @@
+{
+    "Animated": true,
+    "Duration": 2,
+    "Message": "$(L,Action_Entity_Deleted)",
+    "Icon": "",
+    "IsIconHidden": false,
+    "NumberOfLines": 2,
+    "OnSuccess": "/ReembolsoApp/Actions/CloseModalPage_Complete.action",
+    "_Type": "Action.Type.ToastMessage"
+}

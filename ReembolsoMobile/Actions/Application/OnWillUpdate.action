@@ -1,0 +1,10 @@
+{
+    "_Type": "Action.Type.Message",
+    "Message": "$(L,Action_App_Update_Available_Message)",
+    "Title": "$(L,Action_App_Update_Available_Title)",
+    "OKCaption": "$(L,Action_Now)",
+    "CancelCaption": "$(L,Action_Later)",
+    "ActionResult": {
+        "_Name": "OnWillUpdate"
+    }
+}

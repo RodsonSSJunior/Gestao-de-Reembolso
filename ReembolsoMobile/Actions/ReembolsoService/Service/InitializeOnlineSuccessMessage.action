@@ -1,0 +1,8 @@
+{
+    "_Type": "Action.Type.ToastMessage",
+    "Message": "$(L,Action_Init_Success)",
+    "Animated": true,
+    "Duration": 3,
+    "IsIconHidden": true,
+    "NumberOfLines": 1
+}

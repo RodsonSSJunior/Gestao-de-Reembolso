@@ -1,0 +1,6 @@
+{
+    "ModalPageFullscreen": false,
+    "ModalPage": true,
+    "PageToOpen": "/ReembolsoApp/Pages/ReembolsoService_SolicitacoesReembolso/SolicitacoesReembolso_Create.page",
+    "_Type": "Action.Type.Navigation"
+}

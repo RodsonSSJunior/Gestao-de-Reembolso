@@ -1,0 +1,17 @@
+{
+    "_Type": "Action.Type.ODataService.UpdateEntity",
+    "ActionResult": {
+        "_Name": "RejeitarReembolsoResult"
+    },
+    "OnSuccess": "/ReembolsoApp/Actions/CloseModalPage_Complete.action",
+    "OnFailure": "/ReembolsoApp/Actions/GenericBannerMessage.action",
+    "Target": {
+        "EntitySet": "SolicitacoesReembolso",
+        "Service": "/ReembolsoApp/Services/ReembolsoService.service",
+        "ReadLink": "{@odata.readLink}"
+    },
+    "Properties": {
+        "status": "REJEITADO",
+        "motivoAnalise": "#Control:motivo/#Value"
+    }
+}

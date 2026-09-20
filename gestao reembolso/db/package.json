@@ -1,0 +1,12 @@
+{
+  "name": "gestao-reembolso-db",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@sap/hana-client": "^2.30.27",
+    "@sap/hdi-deploy": "^5.0.0"
+  },
+  "scripts": {
+    "start": "node node_modules/@sap/hdi-deploy/deploy.js"
+  }
+}

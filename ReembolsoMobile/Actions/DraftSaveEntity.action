@@ -1,0 +1,29 @@
+{
+    "_Type": "Action.Type.ODataService.DraftEnabled.Save",
+    "Target": {
+        "Service": "/ReembolsoApp/Services/ReembolsoService.service",
+        "EntitySet": "SolicitacoesReembolso",
+        "ReadLink": "{@odata.readLink}"
+    },
+    "ShowActivityIndicator": true,
+    "ActivityIndicatorText": "Salvando e ativando...",
+    "ActionResult": {
+        "_Name": "update"
+    },
+    "OnSuccess": {
+        "Name": "/ReembolsoApp/Actions/ReembolsoService/SolicitacoesReembolso/SolicitacoesReembolso_DraftActivate.action",
+        "Properties": {
+            "Target": {
+                "Service": "/ReembolsoApp/Services/ReembolsoService.service",
+                "EntitySet": "SolicitacoesReembolso",
+                "ReadLink": "SolicitacoesReembolso(ID={#ActionResults:update/data/ID},IsActiveEntity=false)"
+            }
+        }
+    },
+    "OnFailure": {
+        "Name": "/ReembolsoApp/Actions/GenericBannerMessage.action",
+        "Properties": {
+            "Message": "Erro ao salvar: {#ActionResults:update/error}"
+        }
+    }
+}

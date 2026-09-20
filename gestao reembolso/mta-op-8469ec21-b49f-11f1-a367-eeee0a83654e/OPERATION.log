@@ -1,0 +1,2925 @@
+#2026 09 20 03:01:03.953#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#http-nio-0.0.0.0-8080-exec-7#
+[XS2StartProcessListener] Operation ID: 8469ec21-b49f-11f1-a367-eeee0a83654e#
+#2026 09 20 03:01:03.973#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#http-nio-0.0.0.0-8080-exec-7#
+[XS2StartProcessListener] Process environment: {
+  "SKIP_SSL_VALIDATION" : "false",
+  "FLOWABLE_JOB_EXECUTOR_MAX_THREADS" : "32",
+  "VERSION" : "2.54.1",
+  "BASIC_AUTH_ENABLED" : "true",
+  "FLOWABLE_JOB_EXECUTOR_QUEUE_CAPACITY" : "16",
+  "FLOWABLE_JOB_EXECUTOR_CORE_THREADS" : "8"
+}#
+#2026 09 20 03:01:03.973#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#http-nio-0.0.0.0-8080-exec-7#
+[XS2StartProcessListener] Current user: rodsondeveloper@gmail.com#
+#2026 09 20 03:01:03.973#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#http-nio-0.0.0.0-8080-exec-7#
+[XS2StartProcessListener] Client space: dev#
+#2026 09 20 03:01:03.973#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#http-nio-0.0.0.0-8080-exec-7#
+[XS2StartProcessListener] Client organization: a9f81c0dtrial_a9f81c0dtrial#
+#2026 09 20 03:01:03.973#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#http-nio-0.0.0.0-8080-exec-7#
+[XS2StartProcessListener] Process variables: {
+  "keepFiles" : false,
+  "skipAppDigestCalculation" : false,
+  "abortOnError" : false,
+  "mtaId" : "gestao-reembolso",
+  "noFailOnMissingPermissions" : false,
+  "isSecurityEnabled" : false,
+  "apiRequestPath" : "https://deploy-service.cf.us10-001.hana.ondemand.com/api/v1/spaces/499fdb07-b526-4816-98a8-26c762640bc8/operations",
+  "deleteServiceBrokers" : false,
+  "appArchiveId" : "d130ad8b-536f-4e01-bd03-4de62cd36e93,80510afc-d127-42fb-a468-3bdecc9aba02",
+  "isDisposableUserProvidedServiceEnabled" : false,
+  "deleteServiceKeys" : false,
+  "noRestartSubscribedApps" : false,
+  "noStart" : false,
+  "deleteServices" : false
+}#
+#2026 09 20 03:01:04.341#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[ValidateDeployParametersStep] Executing task "validateParametersTask" of process "8469ec47-b49f-11f1-a367-eeee0a83654e"...#
+#2026 09 20 03:01:04.341#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[ValidateDeployParametersStep] Validating parameters...#
+#2026 09 20 03:01:04.344#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[ValidateDeployParametersStep] Size of mtars is 89,976,424 and size of extension descriptors is 0#
+#2026 09 20 03:01:04.344#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[ValidateDeployParametersStep] Archive was split to: 2 parts. Total size in bytes: 89,976,424. Uploading started...#
+#2026 09 20 03:01:04.355#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#pool-10-thread-4#
+[ValidateDeployParametersStep] Opening a new input stream for file with ID: 80510afc-d127-42fb-a468-3bdecc9aba02 and name: gestao-reembolso_1.0.0.mtar.part.0#
+#2026 09 20 03:01:05.180#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#pool-10-thread-4#
+[ValidateDeployParametersStep] Opening a new input stream for file with ID: d130ad8b-536f-4e01-bd03-4de62cd36e93 and name: gestao-reembolso_1.0.0.mtar.part.1#
+#2026 09 20 03:01:05.881#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[ValidateDeployParametersStep] Archive with ID: e0be0b02-9a84-4f6a-a875-317631932ed0 and name: gestao-reembolso_1.0.0.mtar was stored#
+#2026 09 20 03:01:05.881#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[ValidateDeployParametersStep] Deploying in org "a9f81c0dtrial_a9f81c0dtrial" and space "dev"#
+#2026 09 20 03:01:05.884#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[ValidateDeployParametersStep] Parameters validated#
+#2026 09 20 03:01:05.884#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+Step "Validate Parameters" finished#
+#2026 09 20 03:01:05.913#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41957#
+[DeleteRemainingFileParts] Executing task "deleteRemainingFileParts" of process "8469ec47-b49f-11f1-a367-eeee0a83654e"...#
+#2026 09 20 03:01:05.958#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41957#
+Step "Delete Remaining File Parts" finished#
+#2026 09 20 03:01:05.982#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41958#
+[XS2ProcessMtaArchiveStep] Executing task "processArchiveTask" of process "8469ec47-b49f-11f1-a367-eeee0a83654e"...#
+#2026 09 20 03:01:05.984#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41958#
+[XS2ProcessMtaArchiveStep] Processing MTA archive...#
+#2026 09 20 03:01:05.984#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41958#
+[XS2ProcessMtaArchiveStep] MTA Archive ID: e0be0b02-9a84-4f6a-a875-317631932ed0#
+#2026 09 20 03:01:06.941#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41958#
+[XS2ProcessMtaArchiveStep] MTA Descriptor length: 1,111#
+#2026 09 20 03:01:06.941#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41958#
+[XS2ProcessMtaArchiveStep] MTA Archive Modules: [gestao-reembolso-db-deployer, gestao-reembolso-srv]#
+#2026 09 20 03:01:06.941#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41958#
+[XS2ProcessMtaArchiveStep] MTA Archive Requires: []#
+#2026 09 20 03:01:06.941#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41958#
+[XS2ProcessMtaArchiveStep] MTA Archive Resources: [gestao-reembolso-auth]#
+#2026 09 20 03:01:06.948#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41958#
+[XS2ProcessMtaArchiveStep] MTA archive processed#
+#2026 09 20 03:01:06.948#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41958#
+Step "Process Archive" finished#
+#2026 09 20 03:01:06.975#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41958#
+[ProcessMtaExtensionDescriptorsStep] Executing task "processExtensionDescriptorsTask" of process "8469ec47-b49f-11f1-a367-eeee0a83654e"...#
+#2026 09 20 03:01:06.976#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41958#
+[ProcessMtaExtensionDescriptorsStep] Processing MTA extension descriptors...#
+#2026 09 20 03:01:06.977#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41958#
+[ProcessMtaExtensionDescriptorsStep] Provided extension descriptors: [ ]#
+#2026 09 20 03:01:06.977#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41958#
+[ProcessMtaExtensionDescriptorsStep] No extension descriptors in use#
+#2026 09 20 03:01:06.977#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41958#
+[ProcessMtaExtensionDescriptorsStep] MTA extension descriptors processed#
+#2026 09 20 03:01:06.977#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41958#
+Step "Process Extension Descriptors" finished#
+#2026 09 20 03:01:07.005#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41958#
+[XS2DetectMtaSchemaVersionStep] Executing task "detectSchemaVersionTask" of process "8469ec47-b49f-11f1-a367-eeee0a83654e"...#
+#2026 09 20 03:01:07.006#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41958#
+[XS2DetectMtaSchemaVersionStep] Detecting MTA major schema version...#
+#2026 09 20 03:01:07.007#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41958#
+[XS2DetectMtaSchemaVersionStep] Detected MTA schema version: "3"#
+#2026 09 20 03:01:07.011#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41958#
+Step "Detect Schema Version" finished#
+#2026 09 20 03:01:07.050#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41963#
+[MergeDescriptorsStep] Executing task "mergeDescriptorsTask" of process "8469ec47-b49f-11f1-a367-eeee0a83654e"...#
+#2026 09 20 03:01:07.051#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41963#
+[MergeDescriptorsStep] Validating and merging descriptors...#
+#2026 09 20 03:01:07.054#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41963#
+[MergeDescriptorsStep] Merged deployment descriptor: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.3.0",
+  "id" : "gestao-reembolso",
+  "version" : "1.0.0",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "gestao-reembolso-srv",
+    "type" : "javascript.nodejs",
+    "path" : "gestao-reembolso-srv",
+    "properties" : { },
+    "parameters" : {
+      "buildpack" : "nodejs_buildpack",
+      "instances" : 1
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "gestao-reembolso-db",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "********",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "srv-api",
+      "isPublic" : false,
+      "properties" : {
+        "srv-url" : "${default-url}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "gestao-reembolso-srv",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "gestao-reembolso-db-deployer",
+    "type" : "com.sap.xs.hdi",
+    "path" : "gestao-reembolso-db-deployer",
+    "properties" : {
+      "EXIT" : 1
+    },
+    "parameters" : {
+      "memory" : "256M",
+      "buildpack" : "nodejs_buildpack",
+      "no-route" : true,
+      "dependency-type" : "hard",
+      "tasks" : [ {
+        "name" : "deploy",
+        "memory" : "256M",
+        "command" : "npm start"
+      } ],
+      "no-start" : true
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "gestao-reembolso-db",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "gestao-reembolso-db-deployer",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "gestao-reembolso-db",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "type" : "managed-service",
+      "service" : "hana",
+      "service-plan" : "hdi-shared"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "********",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "path" : "./xs-security.json",
+      "service-plan" : "application",
+      "type" : "managed-service",
+      "config" : {
+        "xsappname" : "gestao-reembolso-${org}-${space}"
+      },
+      "service" : "xsuaa"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  } ],
+  "parameters" : {
+    "enable-parallel-deployments" : true
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+#2026 09 20 03:01:07.055#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41963#
+[MergeDescriptorsStep] Descriptors validated and merged#
+#2026 09 20 03:01:07.055#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41963#
+Step "Merge Descriptors" finished#
+#2026 09 20 03:01:07.090#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[CollectCloudLoggingServiceParametersStep] Executing task "sid-9C5714DF-CEC8-4019-8873-CBBA99AC459A" of process "8469ec47-b49f-11f1-a367-eeee0a83654e"...#
+#2026 09 20 03:01:07.093#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+Step "Collect Cloud Logging Service Parameters" finished#
+#2026 09 20 03:01:07.115#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[DetectDeployedMtaStep] Executing task "detectDeployedMtaTask" of process "8469ec47-b49f-11f1-a367-eeee0a83654e"...#
+#2026 09 20 03:01:07.116#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[DetectDeployedMtaStep] Detecting deployed MTA...#
+#2026 09 20 03:01:07.175#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[DetectDeployedMtaStep] Detecting MTA by id gestao-reembolso and namespace null#
+#2026 09 20 03:01:07.175#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[DetectDeployedMtaStep] Getting applications by metadata label selector "mta_id=7d88e83ea5590638b8cc9585106bfb4a,!mta_namespace"...#
+#2026 09 20 03:01:07.212#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[DetectDeployedMtaStep] Getting service instances by metadata label selector "mta_id=7d88e83ea5590638b8cc9585106bfb4a,!mta_namespace"...#
+#2026 09 20 03:01:07.340#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[DetectDeployedMtaStep] Deployed MTA: {
+  "metadata" : {
+    "id" : "gestao-reembolso",
+    "version" : "1.0.0"
+  },
+  "applications" : [ {
+    "name" : "gestao-reembolso-srv",
+    "metadata" : {
+      "guid" : "5ac231b3-ccd6-4161-a4dc-97f9876852c8",
+      "createdAt" : [ 2026, 8, 15, 16, 7, 58 ],
+      "updatedAt" : [ 2026, 9, 20, 1, 42, 10 ]
+    },
+    "v3Metadata" : {
+      "annotations" : {
+        "mta_id" : "gestao-reembolso",
+        "mta_version" : "1.0.0",
+        "mta_module" : "{\"name\":\"gestao-reembolso-srv\"}",
+        "mta_module_provided_dependencies" : "[]",
+        "mta_bound_services" : "********"
+      },
+      "labels" : {
+        "mta_id" : "7d88e83ea5590638b8cc9585106bfb4a"
+      }
+    },
+    "state" : "STARTED",
+    "lifecycle" : {
+      "type" : "BUILDPACK",
+      "data" : {
+        "stack" : "cflinuxfs4",
+        "buildpacks" : [ "nodejs_buildpack" ]
+      }
+    },
+    "space" : {
+      "name" : "dev",
+      "metadata" : {
+        "guid" : "499fdb07-b526-4816-98a8-26c762640bc8",
+        "createdAt" : [ 2026, 8, 6, 1, 24, 3 ],
+        "updatedAt" : [ 2026, 8, 6, 1, 24, 3 ]
+      },
+      "organization" : {
+        "name" : "a9f81c0dtrial_a9f81c0dtrial",
+        "metadata" : {
+          "guid" : "b505c6eb-1a90-4686-8581-1a02c43934e0",
+          "createdAt" : [ 2026, 8, 6, 1, 23, 35 ],
+          "updatedAt" : [ 2026, 8, 6, 1, 23, 37 ]
+        }
+      }
+    },
+    "moduleName" : "gestao-reembolso-srv",
+    "boundMtaServices" : [ "gestao-reembolso-db", "********" ],
+    "providedDependencyNames" : [ ],
+    "productizationState" : "LIVE"
+  }, {
+    "name" : "gestao-reembolso-db-deployer",
+    "metadata" : {
+      "guid" : "28eee1c0-1006-4225-bf57-a2fdb7dae99f",
+      "createdAt" : [ 2026, 8, 17, 13, 46, 26 ],
+      "updatedAt" : [ 2026, 9, 20, 1, 42 ]
+    },
+    "v3Metadata" : {
+      "annotations" : {
+        "mta_id" : "gestao-reembolso",
+        "mta_version" : "1.0.0",
+        "mta_module" : "{\"name\":\"gestao-reembolso-db-deployer\"}",
+        "mta_module_provided_dependencies" : "[]",
+        "mta_bound_services" : "[\"gestao-reembolso-db\"]"
+      },
+      "labels" : {
+        "mta_id" : "7d88e83ea5590638b8cc9585106bfb4a"
+      }
+    },
+    "state" : "STOPPED",
+    "lifecycle" : {
+      "type" : "BUILDPACK",
+      "data" : {
+        "stack" : "cflinuxfs4",
+        "buildpacks" : [ "nodejs_buildpack" ]
+      }
+    },
+    "space" : {
+      "name" : "dev",
+      "metadata" : {
+        "guid" : "499fdb07-b526-4816-98a8-26c762640bc8",
+        "createdAt" : [ 2026, 8, 6, 1, 24, 3 ],
+        "updatedAt" : [ 2026, 8, 6, 1, 24, 3 ]
+      },
+      "organization" : {
+        "name" : "a9f81c0dtrial_a9f81c0dtrial",
+        "metadata" : {
+          "guid" : "b505c6eb-1a90-4686-8581-1a02c43934e0",
+          "createdAt" : [ 2026, 8, 6, 1, 23, 35 ],
+          "updatedAt" : [ 2026, 8, 6, 1, 23, 37 ]
+        }
+      }
+    },
+    "moduleName" : "gestao-reembolso-db-deployer",
+    "boundMtaServices" : [ "gestao-reembolso-db" ],
+    "providedDependencyNames" : [ ],
+    "productizationState" : "LIVE"
+  } ],
+  "services" : [ {
+    "name" : "gestao-reembolso-db",
+    "metadata" : {
+      "guid" : "a9338350-3cb7-47f9-a219-d701a54c742a",
+      "createdAt" : [ 2026, 8, 17, 13, 52, 26 ],
+      "updatedAt" : [ 2026, 8, 17, 13, 52, 27 ]
+    },
+    "v3Metadata" : {
+      "annotations" : {
+        "mta_id" : "gestao-reembolso",
+        "mta_version" : "1.0.0",
+        "mta_resource" : "{\"name\":\"gestao-reembolso-db\"}"
+      },
+      "labels" : {
+        "mta_id" : "7d88e83ea5590638b8cc9585106bfb4a"
+      }
+    },
+    "label" : "hana",
+    "plan" : "hdi-shared",
+    "credentials" : "********",
+    "tags" : [ ],
+    "type" : "managed",
+    "lastOperation" : {
+      "type" : "CREATE",
+      "state" : "SUCCEEDED"
+    },
+    "resourceName" : "gestao-reembolso-db"
+  }, {
+    "name" : "********",
+    "metadata" : {
+      "guid" : "2a728612-a56f-4132-8306-5720252e2585",
+      "createdAt" : [ 2026, 9, 20, 1, 19, 10 ],
+      "updatedAt" : [ 2026, 9, 20, 1, 19, 10 ]
+    },
+    "v3Metadata" : {
+      "annotations" : {
+        "mta_id" : "gestao-reembolso",
+        "mta_version" : "1.0.0",
+        "mta_resource" : "********"
+      },
+      "labels" : {
+        "mta_id" : "7d88e83ea5590638b8cc9585106bfb4a"
+      }
+    },
+    "label" : "xsuaa",
+    "plan" : "application",
+    "credentials" : "********",
+    "tags" : [ ],
+    "type" : "managed",
+    "lastOperation" : {
+      "type" : "UPDATE",
+      "description" : "Error updating application gestao-reembolso!t691115 (Cannot change AppId with update. Old AppId: gestao-reembolso-a9f81c0dtrial_a9f81c0dtrial-dev!t691115 New AppId: gestao-reembolso!t691115)",
+      "state" : "FAILED"
+    },
+    "resourceName" : "********"
+  } ]
+}#
+#2026 09 20 03:01:07.340#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[DetectDeployedMtaStep] Detected deployed MTA with ID "gestao-reembolso" and version "1.0.0"#
+#2026 09 20 03:01:07.344#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[DetectDeployedMtaStep] Detecting backup mta by id "gestao-reembolso" and namespace "null"#
+#2026 09 20 03:01:07.344#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[DetectDeployedMtaStep] Getting applications by metadata label selector "mta_id=7d88e83ea5590638b8cc9585106bfb4a,mta_namespace=b698114a0995e936895b9598a6c19a2c"...#
+#2026 09 20 03:01:07.380#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[DetectDeployedMtaStep] Getting service instances by metadata label selector "mta_id=7d88e83ea5590638b8cc9585106bfb4a,mta_namespace=b698114a0995e936895b9598a6c19a2c"...#
+#2026 09 20 03:01:07.441#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[DetectDeployedMtaStep] Deployed MTA service keys: [ ]#
+#2026 09 20 03:01:07.441#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+Step "Detect Deployed MTA" finished#
+#2026 09 20 03:01:07.467#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[XS2CollectSystemParametersStep] Executing task "collectSystemParametersTask" of process "8469ec47-b49f-11f1-a367-eeee0a83654e"...#
+#2026 09 20 03:01:07.467#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[XS2CollectSystemParametersStep] Collecting system parameters...#
+#2026 09 20 03:01:07.468#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[XS2CollectSystemParametersStep] Getting default domain...#
+#2026 09 20 03:01:07.491#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[XS2CollectSystemParametersStep] Default domain: cfapps.us10-001.hana.ondemand.com#
+#2026 09 20 03:01:07.491#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[XS2CollectSystemParametersStep] Checking for overwriting read-only parameters for mta with id: "gestao-reembolso"#
+#2026 09 20 03:01:07.491#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[XS2CollectSystemParametersStep] No read-only parameters are overwritten#
+#2026 09 20 03:01:07.519#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[XS2CollectSystemParametersStep] Descriptor with system parameters: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.3.0",
+  "id" : "gestao-reembolso",
+  "version" : "1.0.0",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "gestao-reembolso-srv",
+    "type" : "javascript.nodejs",
+    "path" : "gestao-reembolso-srv",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "${protocol}://${default-uri}",
+      "default-app-name" : "gestao-reembolso-srv",
+      "generated-password" : "********",
+      "default-live-url" : "${protocol}://${default-live-uri}",
+      "default-uri" : "${host}.${domain}",
+      "default-instances" : 1,
+      "default-live-host" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv",
+      "instances" : 1,
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv",
+      "app-name" : "${default-app-name}",
+      "default-live-uri" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv.${domain}",
+      "protocol" : "https",
+      "default-live-app-name" : "gestao-reembolso-srv",
+      "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+      "domain" : "${default-domain}",
+      "host" : "${default-host}",
+      "generated-user" : "********"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "gestao-reembolso-db",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "********",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "srv-api",
+      "isPublic" : false,
+      "properties" : {
+        "srv-url" : "${default-url}"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "gestao-reembolso-srv",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "gestao-reembolso-db-deployer",
+    "type" : "com.sap.xs.hdi",
+    "path" : "gestao-reembolso-db-deployer",
+    "properties" : {
+      "EXIT" : 1
+    },
+    "parameters" : {
+      "default-url" : "${protocol}://${default-uri}",
+      "default-app-name" : "gestao-reembolso-db-deployer",
+      "generated-password" : "********",
+      "default-live-url" : "${protocol}://${default-live-uri}",
+      "default-uri" : "${host}.${domain}",
+      "memory" : "256M",
+      "default-instances" : 1,
+      "no-route" : true,
+      "default-live-host" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-db-deployer",
+      "instances" : "${default-instances}",
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-db-deployer",
+      "app-name" : "${default-app-name}",
+      "default-live-uri" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-db-deployer.${domain}",
+      "protocol" : "https",
+      "default-live-app-name" : "gestao-reembolso-db-deployer",
+      "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+      "dependency-type" : "hard",
+      "domain" : "${default-domain}",
+      "host" : "${default-host}",
+      "generated-user" : "********",
+      "tasks" : [ {
+        "name" : "deploy",
+        "memory" : "256M",
+        "command" : "npm start"
+      } ],
+      "no-start" : true
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "gestao-reembolso-db",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "gestao-reembolso-db-deployer",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "gestao-reembolso-db",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "${default-service-name}",
+      "service-plan" : "hdi-shared",
+      "service" : "hana",
+      "generated-user" : "********",
+      "default-xsappname" : "gestao-reembolso-db",
+      "type" : "managed-service",
+      "default-service-name" : "gestao-reembolso-db",
+      "default-container-name" : "A9F81C0DTRIAL_A9F81C0DTRIAL_DEV_GESTAO_REEMBOLSO_DB"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "********",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "path" : "./xs-security.json",
+      "service-name" : "${default-service-name}",
+      "service-plan" : "application",
+      "service" : "xsuaa",
+      "generated-user" : "********",
+      "default-xsappname" : "********",
+      "type" : "managed-service",
+      "config" : {
+        "xsappname" : "gestao-reembolso-${org}-${space}"
+      },
+      "default-service-name" : "********",
+      "default-container-name" : "********"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  } ],
+  "parameters" : {
+    "mta-id" : "gestao-reembolso",
+    "authorization-url" : "********",
+    "org-guid" : "b505c6eb-1a90-4686-8581-1a02c43934e0",
+    "org" : "a9f81c0dtrial_a9f81c0dtrial",
+    "deploy-target" : "a9f81c0dtrial_a9f81c0dtrial dev",
+    "enable-parallel-deployments" : true,
+    "space" : "dev",
+    "xs-api-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "deploy-url" : "deploy-service.cfapps.us10-001.hana.ondemand.com",
+    "xs-type" : "CF",
+    "default-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "mta-version" : "1.0.0",
+    "xs-auth-url" : "********",
+    "space-guid" : "499fdb07-b526-4816-98a8-26c762640bc8",
+    "user" : "********",
+    "controller-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "timestamp" : "20260920030103"
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+#2026 09 20 03:01:07.523#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[XS2CollectSystemParametersStep] Version rule: SAME_HIGHER#
+#2026 09 20 03:01:07.523#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[XS2CollectSystemParametersStep] Detected new MTA version: "1.0.0"#
+#2026 09 20 03:01:07.526#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[XS2CollectSystemParametersStep] Deployed MTA version: "1.0.0"#
+#2026 09 20 03:01:07.529#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[XS2CollectSystemParametersStep] MTA accepted for deployment#
+#2026 09 20 03:01:07.529#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[XS2CollectSystemParametersStep] System parameters collected#
+#2026 09 20 03:01:07.530#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+Step "Collect System Parameters" finished#
+#2026 09 20 03:01:07.558#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[ProcessDescriptorStep] Executing task "processDescriptorTask" of process "8469ec47-b49f-11f1-a367-eeee0a83654e"...#
+#2026 09 20 03:01:07.558#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[ProcessDescriptorStep] Resolving properties and parameters in merged descriptor...#
+#2026 09 20 03:01:07.562#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[ProcessDescriptorStep] Subscriptions: [ ]#
+#2026 09 20 03:01:07.562#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[ProcessDescriptorStep] MTA modules: [gestao-reembolso-srv, gestao-reembolso-db-deployer]#
+#2026 09 20 03:01:07.562#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[ProcessDescriptorStep] Resolved deployment descriptor: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.3.0",
+  "id" : "gestao-reembolso",
+  "version" : "1.0.0",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "gestao-reembolso-srv",
+    "type" : "javascript.nodejs",
+    "path" : "gestao-reembolso-srv",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "https://a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv.cfapps.us10-001.hana.ondemand.com",
+      "default-app-name" : "gestao-reembolso-srv",
+      "generated-password" : "********",
+      "default-live-url" : "https://a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv.cfapps.us10-001.hana.ondemand.com",
+      "default-uri" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv.cfapps.us10-001.hana.ondemand.com",
+      "default-instances" : 1,
+      "default-live-host" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv",
+      "instances" : 1,
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv",
+      "app-name" : "gestao-reembolso-srv",
+      "default-live-uri" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv.cfapps.us10-001.hana.ondemand.com",
+      "protocol" : "https",
+      "default-live-app-name" : "gestao-reembolso-srv",
+      "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+      "domain" : "cfapps.us10-001.hana.ondemand.com",
+      "host" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv",
+      "generated-user" : "********"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "gestao-reembolso-db",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "********",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "srv-api",
+      "isPublic" : false,
+      "properties" : {
+        "srv-url" : "https://a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv.cfapps.us10-001.hana.ondemand.com"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "gestao-reembolso-srv",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "gestao-reembolso-db-deployer",
+    "type" : "com.sap.xs.hdi",
+    "path" : "gestao-reembolso-db-deployer",
+    "properties" : {
+      "EXIT" : 1
+    },
+    "parameters" : {
+      "default-url" : "https://a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-db-deployer.cfapps.us10-001.hana.ondemand.com",
+      "default-app-name" : "gestao-reembolso-db-deployer",
+      "generated-password" : "********",
+      "default-live-url" : "https://a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-db-deployer.cfapps.us10-001.hana.ondemand.com",
+      "default-uri" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-db-deployer.cfapps.us10-001.hana.ondemand.com",
+      "memory" : "256M",
+      "default-instances" : 1,
+      "no-route" : true,
+      "default-live-host" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-db-deployer",
+      "instances" : 1,
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-db-deployer",
+      "app-name" : "gestao-reembolso-db-deployer",
+      "default-live-uri" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-db-deployer.cfapps.us10-001.hana.ondemand.com",
+      "protocol" : "https",
+      "default-live-app-name" : "gestao-reembolso-db-deployer",
+      "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+      "dependency-type" : "hard",
+      "domain" : "cfapps.us10-001.hana.ondemand.com",
+      "host" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-db-deployer",
+      "generated-user" : "********",
+      "tasks" : [ {
+        "command" : "npm start",
+        "memory" : "256M",
+        "name" : "deploy"
+      } ],
+      "no-start" : true
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "gestao-reembolso-db",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "gestao-reembolso-db-deployer",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "gestao-reembolso-db",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "gestao-reembolso-db",
+      "service-plan" : "hdi-shared",
+      "service" : "hana",
+      "generated-user" : "********",
+      "default-xsappname" : "gestao-reembolso-db",
+      "type" : "managed-service",
+      "default-service-name" : "gestao-reembolso-db",
+      "default-container-name" : "A9F81C0DTRIAL_A9F81C0DTRIAL_DEV_GESTAO_REEMBOLSO_DB"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "********",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "path" : "./xs-security.json",
+      "service-name" : "********",
+      "service-plan" : "application",
+      "service" : "xsuaa",
+      "generated-user" : "********",
+      "default-xsappname" : "********",
+      "type" : "managed-service",
+      "config" : {
+        "xsappname" : "gestao-reembolso-a9f81c0dtrial_a9f81c0dtrial-dev"
+      },
+      "default-service-name" : "********",
+      "default-container-name" : "********"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  } ],
+  "parameters" : {
+    "mta-id" : "gestao-reembolso",
+    "authorization-url" : "********",
+    "org-guid" : "b505c6eb-1a90-4686-8581-1a02c43934e0",
+    "org" : "a9f81c0dtrial_a9f81c0dtrial",
+    "deploy-target" : "a9f81c0dtrial_a9f81c0dtrial dev",
+    "enable-parallel-deployments" : true,
+    "region-primary-domain" : "us10.hana.ondemand.com",
+    "space" : "dev",
+    "region-domain" : "us10-001.hana.ondemand.com",
+    "xs-api-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "deploy-url" : "deploy-service.cfapps.us10-001.hana.ondemand.com",
+    "xs-type" : "CF",
+    "default-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "mta-version" : "1.0.0",
+    "xs-auth-url" : "********",
+    "space-guid" : "499fdb07-b526-4816-98a8-26c762640bc8",
+    "user" : "********",
+    "controller-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "timestamp" : "20260920030103"
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+#2026 09 20 03:01:07.562#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[ProcessDescriptorStep] Merged descriptor properties and parameters resolved#
+#2026 09 20 03:01:07.562#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+Step "Process Descriptor Step" finished#
+#2026 09 20 03:01:07.591#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[XS2BuildCloudDeployModelStep] Executing task "buildDeployModelTask" of process "8469ec47-b49f-11f1-a367-eeee0a83654e"...#
+#2026 09 20 03:01:07.593#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[XS2BuildCloudDeployModelStep] Service keys defined for content deployment grouped by service name: { }#
+#2026 09 20 03:01:07.593#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[XS2BuildCloudDeployModelStep] Building cloud deployment model...#
+#2026 09 20 03:01:07.595#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[XS2BuildCloudDeployModelStep] MTA archive modules: [gestao-reembolso-db-deployer, gestao-reembolso-srv]#
+#2026 09 20 03:01:07.595#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[XS2BuildCloudDeployModelStep] Deployed modules: [gestao-reembolso-db-deployer, gestao-reembolso-srv]#
+#2026 09 20 03:01:07.597#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[XS2BuildCloudDeployModelStep] MTA modules: [gestao-reembolso-srv, gestao-reembolso-db-deployer]#
+#2026 09 20 03:01:07.597#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[XS2BuildCloudDeployModelStep] Service keys to create: {
+  "gestao-reembolso-auth" : "********",
+  "gestao-reembolso-db" : [ ]
+}#
+#2026 09 20 03:01:07.597#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[XS2BuildCloudDeployModelStep] Modules to deploy: [{
+  "majorSchemaVersion" : 3,
+  "name" : "gestao-reembolso-srv",
+  "type" : "javascript.nodejs",
+  "path" : "gestao-reembolso-srv",
+  "properties" : { },
+  "parameters" : {
+    "default-url" : "https://a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv.cfapps.us10-001.hana.ondemand.com",
+    "default-app-name" : "gestao-reembolso-srv",
+    "generated-password" : "********",
+    "default-live-url" : "https://a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv.cfapps.us10-001.hana.ondemand.com",
+    "default-uri" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv.cfapps.us10-001.hana.ondemand.com",
+    "default-instances" : 1,
+    "default-live-host" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv",
+    "instances" : 1,
+    "buildpack" : "nodejs_buildpack",
+    "default-host" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv",
+    "app-name" : "gestao-reembolso-srv",
+    "default-live-uri" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv.cfapps.us10-001.hana.ondemand.com",
+    "protocol" : "https",
+    "default-live-app-name" : "gestao-reembolso-srv",
+    "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "dependency-type" : "soft",
+    "domain" : "cfapps.us10-001.hana.ondemand.com",
+    "host" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv",
+    "generated-user" : "********"
+  },
+  "requiredDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "gestao-reembolso-db",
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "********",
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "providedDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "srv-api",
+    "isPublic" : false,
+    "properties" : {
+      "srv-url" : "https://a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv.cfapps.us10-001.hana.ondemand.com"
+    },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "gestao-reembolso-srv",
+    "isPublic" : false,
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "propertiesMetadata" : {
+    "metadata" : { }
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  },
+  "deployedAfter" : [ ],
+  "hooks" : [ ]
+}, {
+  "majorSchemaVersion" : 3,
+  "name" : "gestao-reembolso-db-deployer",
+  "type" : "com.sap.xs.hdi",
+  "path" : "gestao-reembolso-db-deployer",
+  "properties" : {
+    "EXIT" : 1
+  },
+  "parameters" : {
+    "default-url" : "https://a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-db-deployer.cfapps.us10-001.hana.ondemand.com",
+    "default-app-name" : "gestao-reembolso-db-deployer",
+    "generated-password" : "********",
+    "default-live-url" : "https://a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-db-deployer.cfapps.us10-001.hana.ondemand.com",
+    "default-uri" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-db-deployer.cfapps.us10-001.hana.ondemand.com",
+    "memory" : "256M",
+    "default-instances" : 1,
+    "no-route" : true,
+    "default-live-host" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-db-deployer",
+    "instances" : 1,
+    "buildpack" : "nodejs_buildpack",
+    "default-host" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-db-deployer",
+    "app-name" : "gestao-reembolso-db-deployer",
+    "default-live-uri" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-db-deployer.cfapps.us10-001.hana.ondemand.com",
+    "protocol" : "https",
+    "default-live-app-name" : "gestao-reembolso-db-deployer",
+    "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "dependency-type" : "hard",
+    "domain" : "cfapps.us10-001.hana.ondemand.com",
+    "host" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-db-deployer",
+    "generated-user" : "********",
+    "tasks" : [ {
+      "command" : "npm start",
+      "memory" : "256M",
+      "name" : "deploy"
+    } ],
+    "no-start" : true
+  },
+  "requiredDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "gestao-reembolso-db",
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "providedDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "gestao-reembolso-db-deployer",
+    "isPublic" : false,
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "propertiesMetadata" : {
+    "metadata" : { }
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  },
+  "deployedAfter" : [ ],
+  "hooks" : [ ]
+}]#
+#2026 09 20 03:01:07.597#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[XS2BuildCloudDeployModelStep] Custom domains: []#
+#2026 09 20 03:01:07.599#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[XS2BuildCloudDeployModelStep] Calculating resource batches...#
+#2026 09 20 03:01:07.599#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[XS2BuildCloudDeployModelStep] Calculating resource batches completed.#
+#2026 09 20 03:01:07.599#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[XS2BuildCloudDeployModelStep] Cloud deployment model built#
+#2026 09 20 03:01:07.599#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+Step "Build Deploy Model" finished#
+#2026 09 20 03:01:07.636#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[BuildCloudUndeployModelStep] Executing task "buildUndeployModelTask" of process "8469ec47-b49f-11f1-a367-eeee0a83654e"...#
+#2026 09 20 03:01:07.637#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[BuildCloudUndeployModelStep] Building cloud undeployment model...#
+#2026 09 20 03:01:07.638#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[BuildCloudUndeployModelStep] Detecting service keys to delete.#
+#2026 09 20 03:01:07.639#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[BuildCloudUndeployModelStep] No deployed service keys detected!#
+#2026 09 20 03:01:07.639#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[BuildCloudUndeployModelStep] Detected service keys to delete "[]"#
+#2026 09 20 03:01:07.642#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[BuildCloudUndeployModelStep] MTA modules: [gestao-reembolso-srv, gestao-reembolso-db-deployer]#
+#2026 09 20 03:01:07.642#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[BuildCloudUndeployModelStep] Modules to undeploy: [ ]#
+#2026 09 20 03:01:07.642#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[BuildCloudUndeployModelStep] Modules that won't be changed: [ ]#
+#2026 09 20 03:01:07.644#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[BuildCloudUndeployModelStep] Subscriptions to delete: [ ]#
+#2026 09 20 03:01:07.646#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[BuildCloudUndeployModelStep] Cloud services to delete: []#
+#2026 09 20 03:01:07.646#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[BuildCloudUndeployModelStep] Cloud applications to undeploy: [ ]#
+#2026 09 20 03:01:07.648#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[BuildCloudUndeployModelStep] Cloud undeployment model built#
+#2026 09 20 03:01:07.648#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+Step "Build Undeploy Model" finished#
+#2026 09 20 03:01:07.679#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[AddDomainsStep] Executing task "addDomainsTask" of process "8469ec47-b49f-11f1-a367-eeee0a83654e"...#
+#2026 09 20 03:01:07.681#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[AddDomainsStep] Custom domains: []#
+#2026 09 20 03:01:07.681#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+Step "Add Domains" finished#
+#2026 09 20 03:01:08.105#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[ExtractBatchedServicesWithResolvedDynamicParametersStep] Executing task "prepareModulesDeploymentTask" of process "86a81c67-b49f-11f1-a367-eeee0a83654e"...#
+#2026 09 20 03:01:08.106#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[ExtractBatchedServicesWithResolvedDynamicParametersStep] Extracting services and resolving dynamic parameters from batch#
+#2026 09 20 03:01:08.107#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[ExtractBatchedServicesWithResolvedDynamicParametersStep] Services to create: [ {
+  "isOptional" : false,
+  "isManaged" : true,
+  "name" : "gestao-reembolso-db",
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "gestao-reembolso",
+      "mta_version" : "1.0.0",
+      "mta_resource" : "{\"name\":\"gestao-reembolso-db\"}"
+    },
+    "labels" : {
+      "mta_id" : "7d88e83ea5590638b8cc9585106bfb4a"
+    }
+  },
+  "label" : "hana",
+  "plan" : "hdi-shared",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "resourceName" : "gestao-reembolso-db",
+  "shouldSkipParametersUpdate" : false,
+  "shouldSkipPlanUpdate" : false,
+  "shouldSkipTagsUpdate" : false,
+  "shouldSkipSyslogUrlUpdate" : false
+}, {
+  "isOptional" : false,
+  "isManaged" : true,
+  "name" : "********",
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "gestao-reembolso",
+      "mta_version" : "1.0.0",
+      "mta_resource" : "********"
+    },
+    "labels" : {
+      "mta_id" : "7d88e83ea5590638b8cc9585106bfb4a"
+    }
+  },
+  "label" : "xsuaa",
+  "plan" : "application",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "resourceName" : "********",
+  "shouldSkipParametersUpdate" : false,
+  "shouldSkipPlanUpdate" : false,
+  "shouldSkipTagsUpdate" : false,
+  "shouldSkipSyslogUrlUpdate" : false
+} ]#
+#2026 09 20 03:01:08.108#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+Step "Extract Services with Resolved Dynamic parameters from batch" finished#
+#2026 09 20 03:01:08.181#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[CheckServiceOperationStateStep] Executing task "CheckServiceOperationStateTask" of process "86e91d48-b49f-11f1-a367-eeee0a83654e"...#
+#2026 09 20 03:01:08.182#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+[CheckServiceOperationStateStep] Getting service instance "gestao-reembolso-db"...#
+#2026 09 20 03:01:08.314#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41956#
+Step "Check for service operations in Progress" finished#
+#2026 09 20 03:01:08.343#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41958#
+[DetermineServiceCreateUpdateServiceActionsStep] Executing task "DetermineServiceCreateUpdateActionsTask" of process "86e91d48-b49f-11f1-a367-eeee0a83654e"...#
+#2026 09 20 03:01:08.345#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41958#
+[DetermineServiceCreateUpdateServiceActionsStep] Processing service "gestao-reembolso-db"...#
+#2026 09 20 03:01:08.348#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41958#
+[DetermineServiceCreateUpdateServiceActionsStep] Getting service instance "gestao-reembolso-db"...#
+#2026 09 20 03:01:08.468#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41958#
+[DetermineServiceCreateUpdateServiceActionsStep] Existing service: {
+  "name" : "gestao-reembolso-db",
+  "metadata" : {
+    "guid" : "a9338350-3cb7-47f9-a219-d701a54c742a",
+    "createdAt" : [ 2026, 8, 17, 13, 52, 26 ],
+    "updatedAt" : [ 2026, 8, 17, 13, 52, 27 ]
+  },
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "gestao-reembolso",
+      "mta_version" : "1.0.0",
+      "mta_resource" : "{\"name\":\"gestao-reembolso-db\"}"
+    },
+    "labels" : {
+      "mta_id" : "7d88e83ea5590638b8cc9585106bfb4a"
+    }
+  },
+  "label" : "hana",
+  "plan" : "hdi-shared",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "lastOperation" : {
+    "type" : "CREATE",
+    "state" : "SUCCEEDED"
+  }
+}#
+#2026 09 20 03:01:08.468#Z#WARN#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41958#
+[DetermineServiceCreateUpdateServiceActionsStep] Service parameters for service "gestao-reembolso-db" will not be updated, as the parameters are not defined or empty.#
+#2026 09 20 03:01:08.468#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41958#
+Step "Determine update actions" finished#
+#2026 09 20 03:01:08.500#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41963#
+[CheckForServiceBindingOrKeyOperationStep] Executing task "CheckForServiceBindingOrKeyCreation" of process "86e91d48-b49f-11f1-a367-eeee0a83654e"...#
+#2026 09 20 03:01:08.501#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41963#
+Step "Check for service binding or key creation" finished#
+#2026 09 20 03:01:09.259#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[CheckServiceOperationStateStep] Executing task "CheckServiceOperationStateTask" of process "878eac85-b49f-11f1-8947-eeee0a817d23"...#
+#2026 09 20 03:01:09.306#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[CheckServiceOperationStateStep] Getting service instance "gestao-reembolso-auth"...#
+#2026 09 20 03:01:09.436#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+Step "Check for service operations in Progress" finished#
+#2026 09 20 03:01:09.453#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[DetermineServiceCreateUpdateServiceActionsStep] Executing task "DetermineServiceCreateUpdateActionsTask" of process "878eac85-b49f-11f1-8947-eeee0a817d23"...#
+#2026 09 20 03:01:09.453#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[DetermineServiceCreateUpdateServiceActionsStep] Processing service "gestao-reembolso-auth"...#
+#2026 09 20 03:01:09.457#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[DetermineServiceCreateUpdateServiceActionsStep] Getting service instance "gestao-reembolso-auth"...#
+#2026 09 20 03:01:09.600#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[DetermineServiceCreateUpdateServiceActionsStep] Setting service "gestao-reembolso-auth" parameters from "xs-security.json"#
+#2026 09 20 03:01:09.667#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[DetermineServiceCreateUpdateServiceActionsStep] Existing service: {
+  "name" : "********",
+  "metadata" : {
+    "guid" : "2a728612-a56f-4132-8306-5720252e2585",
+    "createdAt" : [ 2026, 9, 20, 1, 19, 10 ],
+    "updatedAt" : [ 2026, 9, 20, 1, 19, 10 ]
+  },
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "gestao-reembolso",
+      "mta_version" : "1.0.0",
+      "mta_resource" : "********"
+    },
+    "labels" : {
+      "mta_id" : "7d88e83ea5590638b8cc9585106bfb4a"
+    }
+  },
+  "label" : "xsuaa",
+  "plan" : "application",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "lastOperation" : {
+    "type" : "UPDATE",
+    "description" : "Error updating application gestao-reembolso!t691115 (Cannot change AppId with update. Old AppId: gestao-reembolso-a9f81c0dtrial_a9f81c0dtrial-dev!t691115 New AppId: gestao-reembolso!t691115)",
+    "state" : "FAILED"
+  }
+}#
+#2026 09 20 03:01:09.667#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[DetermineServiceCreateUpdateServiceActionsStep] Service parameters will be updated#
+#2026 09 20 03:01:09.667#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[DetermineServiceCreateUpdateServiceActionsStep] New parameters: {
+  "attributes" : [ ],
+  "description" : "Security profile do gestao-reembolso (XSUAA)",
+  "oauth2-configuration" : "********",
+  "role-collections" : [ {
+    "name" : "GestaoReembolso-Solicitante",
+    "description" : "Role collection para colaboradores solicitantes",
+    "role-template-references" : [ "$XSAPPNAME.SOLICITANTE" ]
+  }, {
+    "name" : "GestaoReembolso-Aprovador",
+    "description" : "Role collection para aprovadores",
+    "role-template-references" : [ "$XSAPPNAME.APROVADOR" ]
+  } ],
+  "role-templates" : [ {
+    "name" : "SOLICITANTE",
+    "description" : "Colaborador que solicita reembolso",
+    "scope-references" : [ "$XSAPPNAME.SOLICITANTE" ],
+    "attribute-references" : [ ]
+  }, {
+    "name" : "APROVADOR",
+    "description" : "Gestor/aprovador de reembolsos",
+    "scope-references" : [ "$XSAPPNAME.APROVADOR" ],
+    "attribute-references" : [ ]
+  } ],
+  "scopes" : [ {
+    "name" : "$XSAPPNAME.SOLICITANTE",
+    "description" : "Pode criar e consultar suas próprias solicitações de reembolso"
+  }, {
+    "name" : "$XSAPPNAME.APROVADOR",
+    "description" : "Pode aprovar ou rejeitar solicitações de reembolso"
+  } ],
+  "tenant-mode" : "dedicated",
+  "xsappname" : "gestao-reembolso-a9f81c0dtrial_a9f81c0dtrial-dev"
+}#
+#2026 09 20 03:01:09.667#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+Step "Determine update actions" finished#
+#2026 09 20 03:01:09.688#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[CheckForServiceBindingOrKeyOperationStep] Executing task "CheckForServiceBindingOrKeyCreation" of process "878eac85-b49f-11f1-8947-eeee0a817d23"...#
+#2026 09 20 03:01:09.689#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+Step "Check for service binding or key creation" finished#
+#2026 09 20 03:01:09.708#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[UpdateServiceParametersStep] Executing task "UpdateServiceParametersTask" of process "878eac85-b49f-11f1-8947-eeee0a817d23"...#
+#2026 09 20 03:01:09.709#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[UpdateServiceParametersStep] Updating service "gestao-reembolso-auth"...#
+#2026 09 20 03:01:09.712#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[UpdateServiceParametersStep] Updating service parameters for service "gestao-reembolso-auth"...#
+#2026 09 20 03:01:09.795#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[UpdateServiceParametersStep] Service "gestao-reembolso-auth" updated#
+#2026 09 20 03:01:09.796#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[UpdateServiceParametersStep] Triggered service operations: {
+  "gestao-reembolso-auth" : "UPDATE"
+}#
+#2026 09 20 03:01:09.796#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+Step "Update parameters" finished#
+#2026 09 20 03:01:16.540#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41969#
+[UpdateServiceParametersStep] Executing task "UpdateServiceParametersTask" of process "878eac85-b49f-11f1-8947-eeee0a817d23"...#
+#2026 09 20 03:01:16.541#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41969#
+[UpdateServiceParametersStep] Polling service operations...#
+#2026 09 20 03:01:16.543#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41969#
+[UpdateServiceParametersStep] Getting service instance "gestao-reembolso-auth"...#
+#2026 09 20 03:01:16.651#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41969#
+[UpdateServiceParametersStep] Last operation for service "gestao-reembolso-auth": {
+  "type" : "UPDATE",
+  "description" : "",
+  "state" : "SUCCEEDED"
+}#
+#2026 09 20 03:01:16.651#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41969#
+[UpdateServiceParametersStep] Service "gestao-reembolso-auth" updated#
+#2026 09 20 03:01:16.652#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41969#
+[UpdateServiceParametersStep] 1 of 1 done#
+#2026 09 20 03:01:16.656#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41969#
+[UpdateServiceParametersStep] Remaining services to poll: [ ]#
+#2026 09 20 03:01:16.657#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41969#
+Step "Update parameters" finished#
+#2026 09 20 03:01:16.825#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41971#
+[PrepareModulesDeploymentStep] Executing task "prepareModulesDeploymentTask" of process "8c10d93a-b49f-11f1-a367-eeee0a83654e"...#
+#2026 09 20 03:01:16.826#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41971#
+[PrepareModulesDeploymentStep] Preparing modules deployment...#
+#2026 09 20 03:01:16.829#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41971#
+Step "Prepare Modules Deployment" finished#
+#2026 09 20 03:01:16.856#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41971#
+[ComputeNextModulesStep] Executing task "computeNextModulesToDeployInParallel" of process "8c10d93a-b49f-11f1-a367-eeee0a83654e"...#
+#2026 09 20 03:01:16.856#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41971#
+[ComputeNextModulesStep] Computing modules for next parallel iteration...#
+#2026 09 20 03:01:16.857#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41971#
+[ComputeNextModulesStep] Completed modules detected: []#
+#2026 09 20 03:01:16.857#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41971#
+[ComputeNextModulesStep] All modules for deploy detected: [gestao-reembolso-srv, gestao-reembolso-db-deployer]#
+#2026 09 20 03:01:16.857#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41971#
+[ComputeNextModulesStep] Modules not for deploy detected: []#
+#2026 09 20 03:01:16.858#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41971#
+[ComputeNextModulesStep] Computed modules for next parallel iteration: [ {
+  "majorSchemaVersion" : 3,
+  "name" : "gestao-reembolso-srv",
+  "type" : "javascript.nodejs",
+  "path" : "gestao-reembolso-srv",
+  "properties" : { },
+  "parameters" : {
+    "app-name" : "gestao-reembolso-srv",
+    "buildpack" : "nodejs_buildpack",
+    "default-app-name" : "gestao-reembolso-srv",
+    "default-host" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv",
+    "default-instances" : 1,
+    "default-live-app-name" : "gestao-reembolso-srv",
+    "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "default-live-host" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv",
+    "default-live-uri" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv.cfapps.us10-001.hana.ondemand.com",
+    "default-live-url" : "https://a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv.cfapps.us10-001.hana.ondemand.com",
+    "default-uri" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv.cfapps.us10-001.hana.ondemand.com",
+    "default-url" : "https://a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv.cfapps.us10-001.hana.ondemand.com",
+    "dependency-type" : "soft",
+    "domain" : "cfapps.us10-001.hana.ondemand.com",
+    "generated-password" : "********",
+    "generated-user" : "********",
+    "host" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv",
+    "instances" : 1,
+    "protocol" : "https"
+  },
+  "requiredDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "gestao-reembolso-db",
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "********",
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "providedDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "srv-api",
+    "isPublic" : false,
+    "properties" : {
+      "srv-url" : "https://a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv.cfapps.us10-001.hana.ondemand.com"
+    },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "gestao-reembolso-srv",
+    "isPublic" : false,
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "propertiesMetadata" : {
+    "metadata" : { }
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  },
+  "deployedAfter" : [ ],
+  "hooks" : [ ]
+}, {
+  "majorSchemaVersion" : 3,
+  "name" : "gestao-reembolso-db-deployer",
+  "type" : "com.sap.xs.hdi",
+  "path" : "gestao-reembolso-db-deployer",
+  "properties" : {
+    "EXIT" : 1
+  },
+  "parameters" : {
+    "app-name" : "gestao-reembolso-db-deployer",
+    "buildpack" : "nodejs_buildpack",
+    "default-app-name" : "gestao-reembolso-db-deployer",
+    "default-host" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-db-deployer",
+    "default-instances" : 1,
+    "default-live-app-name" : "gestao-reembolso-db-deployer",
+    "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "default-live-host" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-db-deployer",
+    "default-live-uri" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-db-deployer.cfapps.us10-001.hana.ondemand.com",
+    "default-live-url" : "https://a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-db-deployer.cfapps.us10-001.hana.ondemand.com",
+    "default-uri" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-db-deployer.cfapps.us10-001.hana.ondemand.com",
+    "default-url" : "https://a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-db-deployer.cfapps.us10-001.hana.ondemand.com",
+    "dependency-type" : "hard",
+    "domain" : "cfapps.us10-001.hana.ondemand.com",
+    "generated-password" : "********",
+    "generated-user" : "********",
+    "host" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-db-deployer",
+    "instances" : 1,
+    "memory" : "256M",
+    "no-route" : true,
+    "no-start" : true,
+    "protocol" : "https",
+    "tasks" : [ {
+      "command" : "npm start",
+      "memory" : "256M",
+      "name" : "deploy"
+    } ]
+  },
+  "requiredDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "gestao-reembolso-db",
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "providedDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "gestao-reembolso-db-deployer",
+    "isPublic" : false,
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "propertiesMetadata" : {
+    "metadata" : { }
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  },
+  "deployedAfter" : [ ],
+  "hooks" : [ ]
+} ]#
+#2026 09 20 03:01:16.858#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41971#
+Step "Compute Next Modules To Deploy" finished#
+#2026 09 20 03:01:16.966#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41971#
+[ProcessDescriptorStep] Executing task "reprocessDescriptorTask" of process "8c223f1f-b49f-11f1-a367-eeee0a83654e"...#
+#2026 09 20 03:01:16.966#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41971#
+[ProcessDescriptorStep] Resolving properties and parameters in merged descriptor...#
+#2026 09 20 03:01:16.968#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41971#
+[ProcessDescriptorStep] Subscriptions: [ ]#
+#2026 09 20 03:01:16.972#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41971#
+[ProcessDescriptorStep] MTA modules: [gestao-reembolso-srv, gestao-reembolso-db-deployer]#
+#2026 09 20 03:01:16.974#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41971#
+[ProcessDescriptorStep] Resolved deployment descriptor: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.3.0",
+  "id" : "gestao-reembolso",
+  "version" : "1.0.0",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "gestao-reembolso-srv",
+    "type" : "javascript.nodejs",
+    "path" : "gestao-reembolso-srv",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "https://a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv.cfapps.us10-001.hana.ondemand.com",
+      "default-app-name" : "gestao-reembolso-srv",
+      "generated-password" : "********",
+      "default-live-url" : "https://a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv.cfapps.us10-001.hana.ondemand.com",
+      "default-uri" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv.cfapps.us10-001.hana.ondemand.com",
+      "default-instances" : 1,
+      "default-live-host" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv",
+      "instances" : 1,
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv",
+      "app-name" : "gestao-reembolso-srv",
+      "default-live-uri" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv.cfapps.us10-001.hana.ondemand.com",
+      "protocol" : "https",
+      "default-live-app-name" : "gestao-reembolso-srv",
+      "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+      "domain" : "cfapps.us10-001.hana.ondemand.com",
+      "host" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv",
+      "generated-user" : "********"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "gestao-reembolso-db",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "********",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "srv-api",
+      "isPublic" : false,
+      "properties" : {
+        "srv-url" : "https://a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv.cfapps.us10-001.hana.ondemand.com"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "gestao-reembolso-srv",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "gestao-reembolso-db-deployer",
+    "type" : "com.sap.xs.hdi",
+    "path" : "gestao-reembolso-db-deployer",
+    "properties" : {
+      "EXIT" : 1
+    },
+    "parameters" : {
+      "default-url" : "https://a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-db-deployer.cfapps.us10-001.hana.ondemand.com",
+      "default-app-name" : "gestao-reembolso-db-deployer",
+      "generated-password" : "********",
+      "default-live-url" : "https://a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-db-deployer.cfapps.us10-001.hana.ondemand.com",
+      "default-uri" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-db-deployer.cfapps.us10-001.hana.ondemand.com",
+      "memory" : "256M",
+      "default-instances" : 1,
+      "no-route" : true,
+      "default-live-host" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-db-deployer",
+      "instances" : 1,
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-db-deployer",
+      "app-name" : "gestao-reembolso-db-deployer",
+      "default-live-uri" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-db-deployer.cfapps.us10-001.hana.ondemand.com",
+      "protocol" : "https",
+      "default-live-app-name" : "gestao-reembolso-db-deployer",
+      "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+      "dependency-type" : "hard",
+      "domain" : "cfapps.us10-001.hana.ondemand.com",
+      "host" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-db-deployer",
+      "generated-user" : "********",
+      "tasks" : [ {
+        "command" : "npm start",
+        "memory" : "256M",
+        "name" : "deploy"
+      } ],
+      "no-start" : true
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "gestao-reembolso-db",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "gestao-reembolso-db-deployer",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "gestao-reembolso-db",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "gestao-reembolso-db",
+      "service-plan" : "hdi-shared",
+      "service" : "hana",
+      "generated-user" : "********",
+      "default-xsappname" : "gestao-reembolso-db",
+      "type" : "managed-service",
+      "default-service-name" : "gestao-reembolso-db",
+      "default-container-name" : "A9F81C0DTRIAL_A9F81C0DTRIAL_DEV_GESTAO_REEMBOLSO_DB"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "********",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "path" : "./xs-security.json",
+      "service-name" : "********",
+      "service-plan" : "application",
+      "service" : "xsuaa",
+      "generated-user" : "********",
+      "default-xsappname" : "********",
+      "type" : "managed-service",
+      "config" : {
+        "xsappname" : "gestao-reembolso-a9f81c0dtrial_a9f81c0dtrial-dev"
+      },
+      "default-service-name" : "********",
+      "default-container-name" : "********"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  } ],
+  "parameters" : {
+    "mta-id" : "gestao-reembolso",
+    "authorization-url" : "********",
+    "org-guid" : "b505c6eb-1a90-4686-8581-1a02c43934e0",
+    "org" : "a9f81c0dtrial_a9f81c0dtrial",
+    "deploy-target" : "a9f81c0dtrial_a9f81c0dtrial dev",
+    "enable-parallel-deployments" : true,
+    "region-primary-domain" : "us10.hana.ondemand.com",
+    "space" : "dev",
+    "region-domain" : "us10-001.hana.ondemand.com",
+    "xs-api-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "deploy-url" : "deploy-service.cfapps.us10-001.hana.ondemand.com",
+    "xs-type" : "CF",
+    "default-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "mta-version" : "1.0.0",
+    "xs-auth-url" : "********",
+    "space-guid" : "499fdb07-b526-4816-98a8-26c762640bc8",
+    "user" : "********",
+    "controller-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "timestamp" : "20260920030103"
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+#2026 09 20 03:01:16.974#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41971#
+[ProcessDescriptorStep] Merged descriptor properties and parameters resolved#
+#2026 09 20 03:01:16.974#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41971#
+Step "Re-Process Descriptor Step" finished#
+#2026 09 20 03:01:16.997#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41971#
+[BuildApplicationDeployModelStep] Executing task "buildApplicationDeployModelTask" of process "8c223f1f-b49f-11f1-a367-eeee0a83654e"...#
+#2026 09 20 03:01:16.999#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41971#
+[BuildApplicationDeployModelStep] Building cloud deployment model for application "gestao-reembolso-srv"...#
+#2026 09 20 03:01:17.002#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41971#
+[BuildApplicationDeployModelStep] No health-check-type is specified. Setting default type: port#
+#2026 09 20 03:01:17.002#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41971#
+[BuildApplicationDeployModelStep] Building configuration entries for org a9f81c0dtrial_a9f81c0dtrial, space dev, spaceId 499fdb07-b526-4816-98a8-26c762640bc8 and namespace null!#
+#2026 09 20 03:01:17.003#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41971#
+[BuildApplicationDeployModelStep] Configuration entries to publish: [ ]#
+#2026 09 20 03:01:17.003#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41971#
+[BuildApplicationDeployModelStep] Cloud deployment model for application built#
+#2026 09 20 03:01:17.003#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41971#
+Step "Build Application Deploy Model" finished#
+#2026 09 20 03:01:17.035#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41971#
+[CreateOrUpdateAppStep] Executing task "createAppTask" of process "8c223f1f-b49f-11f1-a367-eeee0a83654e"...#
+#2026 09 20 03:01:17.036#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41971#
+[CreateOrUpdateAppStep] Getting application "gestao-reembolso-srv"...#
+#2026 09 20 03:01:17.069#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41971#
+[CreateOrUpdateAppStep] Updating application "gestao-reembolso-srv"...#
+#2026 09 20 03:01:17.073#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41971#
+[CreateOrUpdateAppStep] Getting process for application "5ac231b3-ccd6-4161-a4dc-97f9876852c8"...#
+#2026 09 20 03:01:17.097#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41971#
+[CreateOrUpdateAppStep] Getting routes for application "5ac231b3-ccd6-4161-a4dc-97f9876852c8"...#
+#2026 09 20 03:01:17.131#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41971#
+[CreateOrUpdateAppStep] Getting features for application "5ac231b3-ccd6-4161-a4dc-97f9876852c8"#
+#2026 09 20 03:01:17.167#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41971#
+[CreateOrUpdateAppStep] Updating staging of application "gestao-reembolso-srv" to: {
+  "buildpacks" : [ "nodejs_buildpack" ],
+  "healthCheckType" : "port",
+  "appFeatures" : { }
+}#
+#2026 09 20 03:01:17.409#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41971#
+[CreateOrUpdateAppStep] Application "gestao-reembolso-srv" updated#
+#2026 09 20 03:01:17.409#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41971#
+[CreateOrUpdateAppStep] Getting environment of application "5ac231b3-ccd6-4161-a4dc-97f9876852c8"...#
+#2026 09 20 03:01:17.469#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41971#
+[CreateOrUpdateAppStep] Application "gestao-reembolso-srv" updated#
+#2026 09 20 03:01:17.470#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41971#
+Step "Create App" finished#
+#2026 09 20 03:01:17.553#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41972#
+[CheckServiceBindingOperationStep] Executing task "checkForServiceBindingOperationInProgress" of process "8c7feed8-b49f-11f1-a367-eeee0a83654e"...#
+#2026 09 20 03:01:17.553#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41972#
+[CheckServiceBindingOperationStep] Checking for service binding operation in progress between app "gestao-reembolso-srv" and service instance "gestao-reembolso-db"#
+#2026 09 20 03:01:17.554#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41972#
+[CheckServiceBindingOperationStep] Getting application guid "gestao-reembolso-srv"...#
+#2026 09 20 03:01:17.601#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41972#
+[CheckServiceBindingOperationStep] Getting GUID of required service instance "gestao-reembolso-db"...#
+#2026 09 20 03:01:17.632#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41972#
+[CheckServiceBindingOperationStep] Getting binding of service instance "a9338350-3cb7-47f9-a219-d701a54c742a" with application "5ac231b3-ccd6-4161-a4dc-97f9876852c8"...#
+#2026 09 20 03:01:17.662#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41972#
+[CheckServiceBindingOperationStep] Service binding operation "ff2b2599-94a8-4db8-8701-63ab3cfd80bd" with type "create" is in state "succeeded"#
+#2026 09 20 03:01:17.662#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41972#
+Step "Check For Service Binding Operation In Progress" finished#
+#2026 09 20 03:01:17.689#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41972#
+[DetermineApplicationServiceBindingActionsStep] Executing task "determineApplicationServiceBindingActionsTask" of process "8c7feed8-b49f-11f1-a367-eeee0a83654e"...#
+#2026 09 20 03:01:17.690#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41972#
+[DetermineApplicationServiceBindingActionsStep] Determine bind/unbind operations of application "gestao-reembolso-srv" to service instance "gestao-reembolso-db"#
+#2026 09 20 03:01:17.690#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41972#
+[DetermineApplicationServiceBindingActionsStep] Getting application "gestao-reembolso-srv"...#
+#2026 09 20 03:01:17.719#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41972#
+[DetermineApplicationServiceBindingActionsStep] Binding parameters for application "gestao-reembolso-srv": { }#
+#2026 09 20 03:01:17.750#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41972#
+[DetermineApplicationServiceBindingActionsStep] Check should rebind application "gestao-reembolso-srv" and service instance "gestao-reembolso-db"#
+#2026 09 20 03:01:17.750#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41972#
+[DetermineApplicationServiceBindingActionsStep] Getting GUID of required service instance "gestao-reembolso-db"...#
+#2026 09 20 03:01:17.784#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41972#
+[DetermineApplicationServiceBindingActionsStep] Getting binding of service instance "a9338350-3cb7-47f9-a219-d701a54c742a" with application "5ac231b3-ccd6-4161-a4dc-97f9876852c8"...#
+#2026 09 20 03:01:17.814#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41972#
+[DetermineApplicationServiceBindingActionsStep] Getting parameters of service binding "ff2b2599-94a8-4db8-8701-63ab3cfd80bd"...#
+#2026 09 20 03:01:18.040#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41972#
+[DetermineApplicationServiceBindingActionsStep] Service instance "gestao-reembolso-db" will not be rebound to application "gestao-reembolso-srv" because the binding parameters are not modified#
+#2026 09 20 03:01:18.043#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41972#
+[DetermineApplicationServiceBindingActionsStep] Calculated binding operations between application "gestao-reembolso-srv" and service instance "gestao-reembolso-db": unbind - false bind - false#
+#2026 09 20 03:01:18.043#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41972#
+Step "Determine Application Service Binding Actions" finished#
+#2026 09 20 03:01:18.476#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[ProcessDescriptorStep] Executing task "reprocessDescriptorTask" of process "8d094304-b49f-11f1-8947-eeee0a817d23"...#
+#2026 09 20 03:01:18.477#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[ProcessDescriptorStep] Resolving properties and parameters in merged descriptor...#
+#2026 09 20 03:01:18.479#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[ProcessDescriptorStep] Subscriptions: [ ]#
+#2026 09 20 03:01:18.482#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[ProcessDescriptorStep] MTA modules: [gestao-reembolso-srv, gestao-reembolso-db-deployer]#
+#2026 09 20 03:01:18.484#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[ProcessDescriptorStep] Resolved deployment descriptor: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.3.0",
+  "id" : "gestao-reembolso",
+  "version" : "1.0.0",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "gestao-reembolso-srv",
+    "type" : "javascript.nodejs",
+    "path" : "gestao-reembolso-srv",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "https://a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv.cfapps.us10-001.hana.ondemand.com",
+      "default-app-name" : "gestao-reembolso-srv",
+      "generated-password" : "********",
+      "default-live-url" : "https://a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv.cfapps.us10-001.hana.ondemand.com",
+      "default-uri" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv.cfapps.us10-001.hana.ondemand.com",
+      "default-instances" : 1,
+      "default-live-host" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv",
+      "instances" : 1,
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv",
+      "app-name" : "gestao-reembolso-srv",
+      "default-live-uri" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv.cfapps.us10-001.hana.ondemand.com",
+      "protocol" : "https",
+      "default-live-app-name" : "gestao-reembolso-srv",
+      "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+      "domain" : "cfapps.us10-001.hana.ondemand.com",
+      "host" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv",
+      "generated-user" : "********"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "gestao-reembolso-db",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "********",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "srv-api",
+      "isPublic" : false,
+      "properties" : {
+        "srv-url" : "https://a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv.cfapps.us10-001.hana.ondemand.com"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "gestao-reembolso-srv",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "gestao-reembolso-db-deployer",
+    "type" : "com.sap.xs.hdi",
+    "path" : "gestao-reembolso-db-deployer",
+    "properties" : {
+      "EXIT" : 1
+    },
+    "parameters" : {
+      "default-url" : "https://a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-db-deployer.cfapps.us10-001.hana.ondemand.com",
+      "default-app-name" : "gestao-reembolso-db-deployer",
+      "generated-password" : "********",
+      "default-live-url" : "https://a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-db-deployer.cfapps.us10-001.hana.ondemand.com",
+      "default-uri" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-db-deployer.cfapps.us10-001.hana.ondemand.com",
+      "memory" : "256M",
+      "default-instances" : 1,
+      "no-route" : true,
+      "default-live-host" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-db-deployer",
+      "instances" : 1,
+      "buildpack" : "nodejs_buildpack",
+      "default-host" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-db-deployer",
+      "app-name" : "gestao-reembolso-db-deployer",
+      "default-live-uri" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-db-deployer.cfapps.us10-001.hana.ondemand.com",
+      "protocol" : "https",
+      "default-live-app-name" : "gestao-reembolso-db-deployer",
+      "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+      "dependency-type" : "hard",
+      "domain" : "cfapps.us10-001.hana.ondemand.com",
+      "host" : "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-db-deployer",
+      "generated-user" : "********",
+      "tasks" : [ {
+        "command" : "npm start",
+        "memory" : "256M",
+        "name" : "deploy"
+      } ],
+      "no-start" : true
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "gestao-reembolso-db",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "gestao-reembolso-db-deployer",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "gestao-reembolso-db",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "gestao-reembolso-db",
+      "service-plan" : "hdi-shared",
+      "service" : "hana",
+      "generated-user" : "********",
+      "default-xsappname" : "gestao-reembolso-db",
+      "type" : "managed-service",
+      "default-service-name" : "gestao-reembolso-db",
+      "default-container-name" : "A9F81C0DTRIAL_A9F81C0DTRIAL_DEV_GESTAO_REEMBOLSO_DB"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "********",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "path" : "./xs-security.json",
+      "service-name" : "********",
+      "service-plan" : "application",
+      "service" : "xsuaa",
+      "generated-user" : "********",
+      "default-xsappname" : "********",
+      "type" : "managed-service",
+      "config" : {
+        "xsappname" : "gestao-reembolso-a9f81c0dtrial_a9f81c0dtrial-dev"
+      },
+      "default-service-name" : "********",
+      "default-container-name" : "********"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  } ],
+  "parameters" : {
+    "mta-id" : "gestao-reembolso",
+    "authorization-url" : "********",
+    "org-guid" : "b505c6eb-1a90-4686-8581-1a02c43934e0",
+    "org" : "a9f81c0dtrial_a9f81c0dtrial",
+    "deploy-target" : "a9f81c0dtrial_a9f81c0dtrial dev",
+    "enable-parallel-deployments" : true,
+    "region-primary-domain" : "us10.hana.ondemand.com",
+    "space" : "dev",
+    "region-domain" : "us10-001.hana.ondemand.com",
+    "xs-api-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "deploy-url" : "deploy-service.cfapps.us10-001.hana.ondemand.com",
+    "xs-type" : "CF",
+    "default-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "mta-version" : "1.0.0",
+    "xs-auth-url" : "********",
+    "space-guid" : "499fdb07-b526-4816-98a8-26c762640bc8",
+    "user" : "********",
+    "controller-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "timestamp" : "20260920030103"
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+#2026 09 20 03:01:18.484#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[ProcessDescriptorStep] Merged descriptor properties and parameters resolved#
+#2026 09 20 03:01:18.484#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+Step "Re-Process Descriptor Step" finished#
+#2026 09 20 03:01:18.503#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[BuildApplicationDeployModelStep] Executing task "buildApplicationDeployModelTask" of process "8d094304-b49f-11f1-8947-eeee0a817d23"...#
+#2026 09 20 03:01:18.504#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[BuildApplicationDeployModelStep] Building cloud deployment model for application "gestao-reembolso-db-deployer"...#
+#2026 09 20 03:01:18.506#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[BuildApplicationDeployModelStep] No health-check-type is specified. Setting default type: port#
+#2026 09 20 03:01:18.507#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[BuildApplicationDeployModelStep] Building configuration entries for org a9f81c0dtrial_a9f81c0dtrial, space dev, spaceId 499fdb07-b526-4816-98a8-26c762640bc8 and namespace null!#
+#2026 09 20 03:01:18.507#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[BuildApplicationDeployModelStep] Configuration entries to publish: [ ]#
+#2026 09 20 03:01:18.507#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[BuildApplicationDeployModelStep] Cloud deployment model for application built#
+#2026 09 20 03:01:18.507#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+Step "Build Application Deploy Model" finished#
+#2026 09 20 03:01:18.439#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70403#
+[CheckServiceBindingOperationStep] Executing task "checkForServiceBindingOperationInProgress" of process "8d06aa57-b49f-11f1-8947-eeee0a817d23"...#
+#2026 09 20 03:01:18.439#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70403#
+[CheckServiceBindingOperationStep] Checking for service binding operation in progress between app "gestao-reembolso-srv" and service instance "gestao-reembolso-auth"#
+#2026 09 20 03:01:18.440#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70403#
+[CheckServiceBindingOperationStep] Getting application guid "gestao-reembolso-srv"...#
+#2026 09 20 03:01:18.469#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70403#
+[CheckServiceBindingOperationStep] Getting GUID of required service instance "gestao-reembolso-auth"...#
+#2026 09 20 03:01:18.499#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70403#
+[CheckServiceBindingOperationStep] Getting binding of service instance "2a728612-a56f-4132-8306-5720252e2585" with application "5ac231b3-ccd6-4161-a4dc-97f9876852c8"...#
+#2026 09 20 03:01:18.529#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70403#
+[CheckServiceBindingOperationStep] Service binding operation "ad515a4c-466d-4fda-ad7d-cc4f4203cb9a" with type "create" is in state "succeeded"#
+#2026 09 20 03:01:18.529#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70403#
+Step "Check For Service Binding Operation In Progress" finished#
+#2026 09 20 03:01:18.550#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70403#
+[DetermineApplicationServiceBindingActionsStep] Executing task "determineApplicationServiceBindingActionsTask" of process "8d06aa57-b49f-11f1-8947-eeee0a817d23"...#
+#2026 09 20 03:01:18.551#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70403#
+[DetermineApplicationServiceBindingActionsStep] Determine bind/unbind operations of application "gestao-reembolso-srv" to service instance "gestao-reembolso-auth"#
+#2026 09 20 03:01:18.551#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70403#
+[DetermineApplicationServiceBindingActionsStep] Getting application "gestao-reembolso-srv"...#
+#2026 09 20 03:01:18.585#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70403#
+[DetermineApplicationServiceBindingActionsStep] Binding parameters for application "gestao-reembolso-srv": { }#
+#2026 09 20 03:01:18.617#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70403#
+[DetermineApplicationServiceBindingActionsStep] Check should rebind application "gestao-reembolso-srv" and service instance "gestao-reembolso-auth"#
+#2026 09 20 03:01:18.618#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70403#
+[DetermineApplicationServiceBindingActionsStep] Getting GUID of required service instance "gestao-reembolso-auth"...#
+#2026 09 20 03:01:18.648#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70403#
+[DetermineApplicationServiceBindingActionsStep] Getting binding of service instance "2a728612-a56f-4132-8306-5720252e2585" with application "5ac231b3-ccd6-4161-a4dc-97f9876852c8"...#
+#2026 09 20 03:01:18.677#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70403#
+[DetermineApplicationServiceBindingActionsStep] Getting parameters of service binding "ad515a4c-466d-4fda-ad7d-cc4f4203cb9a"...#
+#2026 09 20 03:01:18.709#Z#WARN#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70403#
+[DetermineApplicationServiceBindingActionsStep] Cannot retrieve parameters of binding between application "gestao-reembolso-srv" and service instance "gestao-reembolso-auth"#
+#2026 09 20 03:01:18.709#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70403#
+[DetermineApplicationServiceBindingActionsStep] Calculated binding operations between application "gestao-reembolso-srv" and service instance "gestao-reembolso-auth": unbind - true bind - true#
+#2026 09 20 03:01:18.709#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70403#
+Step "Determine Application Service Binding Actions" finished#
+#2026 09 20 03:01:18.731#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70403#
+[UnbindServiceFromApplicationStep] Executing task "unbindServiceFromApplicationTask" of process "8d06aa57-b49f-11f1-8947-eeee0a817d23"...#
+#2026 09 20 03:01:18.732#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70403#
+[UnbindServiceFromApplicationStep] Unbinding service instance "gestao-reembolso-auth" from application "gestao-reembolso-srv"...#
+#2026 09 20 03:01:18.735#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70403#
+[UnbindServiceFromApplicationStep] Unbinding application "gestao-reembolso-srv" from service instance "gestao-reembolso-auth"...#
+#2026 09 20 03:01:18.856#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70403#
+Step "Unbind Service from Application" finished#
+#2026 09 20 03:01:18.536#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[CreateOrUpdateAppStep] Executing task "createAppTask" of process "8d094304-b49f-11f1-8947-eeee0a817d23"...#
+#2026 09 20 03:01:18.536#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[CreateOrUpdateAppStep] Getting application "gestao-reembolso-db-deployer"...#
+#2026 09 20 03:01:18.566#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[CreateOrUpdateAppStep] Updating application "gestao-reembolso-db-deployer"...#
+#2026 09 20 03:01:18.570#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[CreateOrUpdateAppStep] Getting process for application "28eee1c0-1006-4225-bf57-a2fdb7dae99f"...#
+#2026 09 20 03:01:18.602#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[CreateOrUpdateAppStep] Getting routes for application "28eee1c0-1006-4225-bf57-a2fdb7dae99f"...#
+#2026 09 20 03:01:18.623#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[CreateOrUpdateAppStep] Getting features for application "28eee1c0-1006-4225-bf57-a2fdb7dae99f"#
+#2026 09 20 03:01:18.640#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[CreateOrUpdateAppStep] Updating staging of application "gestao-reembolso-db-deployer" to: {
+  "buildpacks" : [ "nodejs_buildpack" ],
+  "healthCheckType" : "port",
+  "appFeatures" : { }
+}#
+#2026 09 20 03:01:18.819#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[CreateOrUpdateAppStep] Application "gestao-reembolso-db-deployer" updated#
+#2026 09 20 03:01:18.819#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[CreateOrUpdateAppStep] Getting environment of application "28eee1c0-1006-4225-bf57-a2fdb7dae99f"...#
+#2026 09 20 03:01:18.853#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[CreateOrUpdateAppStep] Applying update strategy "REPLACE" to env#
+#2026 09 20 03:01:18.853#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[CreateOrUpdateAppStep] Updating environment of application "gestao-reembolso-db-deployer"#
+#2026 09 20 03:01:18.955#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[CreateOrUpdateAppStep] Application "gestao-reembolso-db-deployer" updated#
+#2026 09 20 03:01:18.955#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+Step "Create App" finished#
+#2026 09 20 03:01:19.034#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[CheckServiceBindingOperationStep] Executing task "checkForServiceBindingOperationInProgress" of process "8d61c2b5-b49f-11f1-8947-eeee0a817d23"...#
+#2026 09 20 03:01:19.035#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[CheckServiceBindingOperationStep] Checking for service binding operation in progress between app "gestao-reembolso-db-deployer" and service instance "gestao-reembolso-db"#
+#2026 09 20 03:01:19.035#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[CheckServiceBindingOperationStep] Getting application guid "gestao-reembolso-db-deployer"...#
+#2026 09 20 03:01:19.065#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[CheckServiceBindingOperationStep] Getting GUID of required service instance "gestao-reembolso-db"...#
+#2026 09 20 03:01:19.112#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[CheckServiceBindingOperationStep] Getting binding of service instance "a9338350-3cb7-47f9-a219-d701a54c742a" with application "28eee1c0-1006-4225-bf57-a2fdb7dae99f"...#
+#2026 09 20 03:01:19.146#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[CheckServiceBindingOperationStep] Service binding operation "b602363a-43a4-479c-a880-37e8937fc90a" with type "create" is in state "succeeded"#
+#2026 09 20 03:01:19.146#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+Step "Check For Service Binding Operation In Progress" finished#
+#2026 09 20 03:01:19.174#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[DetermineApplicationServiceBindingActionsStep] Executing task "determineApplicationServiceBindingActionsTask" of process "8d61c2b5-b49f-11f1-8947-eeee0a817d23"...#
+#2026 09 20 03:01:19.175#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[DetermineApplicationServiceBindingActionsStep] Determine bind/unbind operations of application "gestao-reembolso-db-deployer" to service instance "gestao-reembolso-db"#
+#2026 09 20 03:01:19.175#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[DetermineApplicationServiceBindingActionsStep] Getting application "gestao-reembolso-db-deployer"...#
+#2026 09 20 03:01:19.211#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[DetermineApplicationServiceBindingActionsStep] Binding parameters for application "gestao-reembolso-db-deployer": { }#
+#2026 09 20 03:01:19.237#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[DetermineApplicationServiceBindingActionsStep] Check should rebind application "gestao-reembolso-db-deployer" and service instance "gestao-reembolso-db"#
+#2026 09 20 03:01:19.237#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[DetermineApplicationServiceBindingActionsStep] Getting GUID of required service instance "gestao-reembolso-db"...#
+#2026 09 20 03:01:19.268#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[DetermineApplicationServiceBindingActionsStep] Getting binding of service instance "a9338350-3cb7-47f9-a219-d701a54c742a" with application "28eee1c0-1006-4225-bf57-a2fdb7dae99f"...#
+#2026 09 20 03:01:19.299#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[DetermineApplicationServiceBindingActionsStep] Getting parameters of service binding "b602363a-43a4-479c-a880-37e8937fc90a"...#
+#2026 09 20 03:01:19.507#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[DetermineApplicationServiceBindingActionsStep] Service instance "gestao-reembolso-db" will not be rebound to application "gestao-reembolso-db-deployer" because the binding parameters are not modified#
+#2026 09 20 03:01:19.510#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[DetermineApplicationServiceBindingActionsStep] Calculated binding operations between application "gestao-reembolso-db-deployer" and service instance "gestao-reembolso-db": unbind - false bind - false#
+#2026 09 20 03:01:19.510#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+Step "Determine Application Service Binding Actions" finished#
+#2026 09 20 03:01:19.593#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[DetermineVcapServicesPropertiesChangedStep] Executing task "determineVcapServicesPropertiesChangedTask" of process "8db735cf-b49f-11f1-8947-eeee0a817d23"...#
+#2026 09 20 03:01:19.594#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[DetermineVcapServicesPropertiesChangedStep] VCAP_SERVICES properties for application "gestao-reembolso-db-deployer" changed: false#
+#2026 09 20 03:01:19.594#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+Step "Determine vcap services properties changed" finished#
+#2026 09 20 03:01:19.611#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[UploadAppStep] Executing task "uploadAppTask" of process "8db735cf-b49f-11f1-8947-eeee0a817d23"...#
+#2026 09 20 03:01:19.612#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[UploadAppStep] Application upload timeout is default one: 3,600 seconds#
+#2026 09 20 03:01:19.612#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[UploadAppStep] Uploading application "gestao-reembolso-db-deployer"...#
+#2026 09 20 03:01:19.614#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[UploadAppStep] Getting application "gestao-reembolso-db-deployer"...#
+#2026 09 20 03:01:19.639#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[UploadAppStep] Getting environment of application "28eee1c0-1006-4225-bf57-a2fdb7dae99f"...#
+#2026 09 20 03:01:19.662#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+[UploadAppStep] Calculating application digest: "gestao-reembolso-db-deployer"#
+#2026 09 20 03:01:20.142#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70399#
+Step "Upload App" finished#
+#2026 09 20 03:01:26.617#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70408#
+[UnbindServiceFromApplicationStep] Executing task "unbindServiceFromApplicationTask" of process "8d06aa57-b49f-11f1-8947-eeee0a817d23"...#
+#2026 09 20 03:01:26.619#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70408#
+[UnbindServiceFromApplicationStep] Getting async job "a0fc303d-a68d-4035-b033-f9798f380a14"#
+#2026 09 20 03:01:26.638#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70408#
+[UnbindServiceFromApplicationStep] Getting service instance "gestao-reembolso-auth"...#
+#2026 09 20 03:01:26.758#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70408#
+[UnbindServiceFromApplicationStep] Async service binding operation with id "a0fc303d-a68d-4035-b033-f9798f380a14" finished#
+#2026 09 20 03:01:26.760#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70408#
+Step "Unbind Service from Application" finished#
+#2026 09 20 03:01:26.808#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70406#
+[BindServiceToApplicationStep] Executing task "bindServiceToApplicationTask" of process "8d06aa57-b49f-11f1-8947-eeee0a817d23"...#
+#2026 09 20 03:01:26.809#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70406#
+[BindServiceToApplicationStep] Binding service instance "gestao-reembolso-auth" to application "gestao-reembolso-srv"...#
+#2026 09 20 03:01:26.813#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70406#
+[BindServiceToApplicationStep] Binding service instance "gestao-reembolso-auth" to application "gestao-reembolso-srv" with parameters: { }#
+#2026 09 20 03:01:26.919#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70406#
+Step "Bind Service to Application" finished#
+#2026 09 20 03:01:26.564#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70410#
+[UploadAppStep] Executing task "uploadAppTask" of process "8db735cf-b49f-11f1-8947-eeee0a817d23"...#
+#2026 09 20 03:01:26.564#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70410#
+[UploadAppStep] Application upload timeout is default one: 3,600 seconds#
+#2026 09 20 03:01:26.566#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#pool-14-thread-4#
+[UploadAppStep] Upload of application: gestao-reembolso-db-deployer started on instance: 0#
+#2026 09 20 03:01:26.566#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#pool-14-thread-4#
+[UploadAppStep] Uploading file "gestao-reembolso-db-deployer/data.zip" for application "gestao-reembolso-db-deployer"#
+#2026 09 20 03:01:27.149#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#pool-14-thread-4#
+[UploadAppStep] Time elapsed for app binary download: 582 in millis#
+#2026 09 20 03:01:27.149#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#pool-14-thread-4#
+[UploadAppStep] Size of app gestao-reembolso-db-deployer is 42,989,081 bytes#
+#2026 09 20 03:01:27.149#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#pool-14-thread-4#
+[UploadAppStep] Asynchronously uploading binaries for application "gestao-reembolso-db-deployer"...#
+#2026 09 20 03:01:27.550#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#pool-14-thread-4#
+[UploadAppStep] Started async upload of application "gestao-reembolso-db-deployer"#
+#2026 09 20 03:01:27.554#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70410#
+[UploadAppStep] Time elapsed for upload: 989 in millis#
+#2026 09 20 03:01:27.554#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70410#
+[UploadAppStep] Getting application "gestao-reembolso-db-deployer"...#
+#2026 09 20 03:01:27.568#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#App upload monitor: 7e78f212-b27e-45fb-96cf-d0f2e6119bbc#
+[UploadAppStep] Upload status: PROCESSING_UPLOAD#
+#2026 09 20 03:01:27.583#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70410#
+[UploadAppStep] Getting environment of application "28eee1c0-1006-4225-bf57-a2fdb7dae99f"...#
+#2026 09 20 03:01:27.613#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70410#
+[UploadAppStep] Updating environment of application "gestao-reembolso-db-deployer"#
+#2026 09 20 03:01:27.699#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70410#
+Step "Upload App" finished#
+#2026 09 20 03:01:36.677#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32853#
+[UploadAppStep] Executing task "uploadAppTask" of process "8db735cf-b49f-11f1-8947-eeee0a817d23"...#
+#2026 09 20 03:01:36.678#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32853#
+[UploadAppStep] Application upload timeout is default one: 3,600 seconds#
+#2026 09 20 03:01:36.678#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32853#
+[UploadAppStep] Checking upload status of application "gestao-reembolso-db-deployer"...#
+#2026 09 20 03:01:36.753#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32853#
+[UploadAppStep] Getting package "7e78f212-b27e-45fb-96cf-d0f2e6119bbc"...#
+#2026 09 20 03:01:36.795#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32853#
+[UploadAppStep] Application "gestao-reembolso-db-deployer" uploaded#
+#2026 09 20 03:01:36.796#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32853#
+Step "Upload App" finished#
+#2026 09 20 03:01:36.654#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41986#
+[BindServiceToApplicationStep] Executing task "bindServiceToApplicationTask" of process "8d06aa57-b49f-11f1-8947-eeee0a817d23"...#
+#2026 09 20 03:01:36.655#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41986#
+[BindServiceToApplicationStep] Getting async job "a542bc2d-bc3e-45e0-aaf9-e7ac0c923ce7"#
+#2026 09 20 03:01:36.674#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41986#
+[BindServiceToApplicationStep] Getting service instance "gestao-reembolso-auth"...#
+#2026 09 20 03:01:36.804#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41986#
+[BindServiceToApplicationStep] Async service binding operation with id "a542bc2d-bc3e-45e0-aaf9-e7ac0c923ce7" finished#
+#2026 09 20 03:01:36.807#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41986#
+Step "Bind Service to Application" finished#
+#2026 09 20 03:01:36.829#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32854#
+[ScaleAppStep] Executing task "scaleAppTask" of process "8db735cf-b49f-11f1-8947-eeee0a817d23"...#
+#2026 09 20 03:01:36.833#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32854#
+[ScaleAppStep] Scaling application "gestao-reembolso-db-deployer"...#
+#2026 09 20 03:01:36.833#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32854#
+[ScaleAppStep] Getting application guid "gestao-reembolso-db-deployer"...#
+#2026 09 20 03:01:36.857#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32854#
+[ScaleAppStep] Getting process for application "28eee1c0-1006-4225-bf57-a2fdb7dae99f"...#
+#2026 09 20 03:01:36.896#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32854#
+[ScaleAppStep] Application "gestao-reembolso-db-deployer" scaled#
+#2026 09 20 03:01:36.896#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32854#
+Step "Scale App" finished#
+#2026 09 20 03:01:36.966#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41986#
+[DetermineVcapServicesPropertiesChangedStep] Executing task "determineVcapServicesPropertiesChangedTask" of process "980ca0a5-b49f-11f1-a367-eeee0a83654e"...#
+#2026 09 20 03:01:36.967#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41986#
+[DetermineVcapServicesPropertiesChangedStep] VCAP_SERVICES properties for application "gestao-reembolso-srv" changed: true#
+#2026 09 20 03:01:36.967#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41986#
+Step "Determine vcap services properties changed" finished#
+#2026 09 20 03:01:36.929#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32855#
+[DetermineDesiredStateAchievingActionsStep] Executing task "determineDesiredStateAchievingActionsTask" of process "8db735cf-b49f-11f1-8947-eeee0a817d23"...#
+#2026 09 20 03:01:36.931#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32855#
+[DetermineDesiredStateAchievingActionsStep] Getting application "gestao-reembolso-db-deployer"...#
+#2026 09 20 03:01:36.965#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32855#
+[DetermineDesiredStateAchievingActionsStep] Getting instances for application "gestao-reembolso-db-deployer"...#
+#2026 09 20 03:01:36.965#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32855#
+[DetermineDesiredStateAchievingActionsStep] Getting environment of application "28eee1c0-1006-4225-bf57-a2fdb7dae99f"...#
+#2026 09 20 03:01:37.001#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32855#
+[DetermineDesiredStateAchievingActionsStep] Current state of application gestao-reembolso-db-deployer: STOPPED#
+#2026 09 20 03:01:37.001#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32855#
+[DetermineDesiredStateAchievingActionsStep] Desired state of application gestao-reembolso-db-deployer: STOPPED#
+#2026 09 20 03:01:37.001#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32855#
+[DetermineDesiredStateAchievingActionsStep] Actions that should be executed on application gestao-reembolso-db-deployer: [STAGE]#
+#2026 09 20 03:01:37.001#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32855#
+Step "Determine Desired State Achieving Actions" finished#
+#2026 09 20 03:01:37.034#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32856#
+[StageAppStep] Executing task "stageAppTask" of process "8db735cf-b49f-11f1-8947-eeee0a817d23"...#
+#2026 09 20 03:01:37.036#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32856#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 09 20 03:01:37.038#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32856#
+[StageAppStep] Staging application "gestao-reembolso-db-deployer"...#
+#2026 09 20 03:01:37.043#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32856#
+[StageAppStep] Creating build for package "7e78f212-b27e-45fb-96cf-d0f2e6119bbc"...#
+#2026 09 20 03:01:37.494#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32856#
+Step "Stage App" finished#
+#2026 09 20 03:01:36.996#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41986#
+[UploadAppStep] Executing task "uploadAppTask" of process "980ca0a5-b49f-11f1-a367-eeee0a83654e"...#
+#2026 09 20 03:01:36.996#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41986#
+[UploadAppStep] Application upload timeout is default one: 3,600 seconds#
+#2026 09 20 03:01:36.996#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41986#
+[UploadAppStep] Uploading application "gestao-reembolso-srv"...#
+#2026 09 20 03:01:37.005#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41986#
+[UploadAppStep] Getting application "gestao-reembolso-srv"...#
+#2026 09 20 03:01:37.034#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41986#
+[UploadAppStep] Getting environment of application "5ac231b3-ccd6-4161-a4dc-97f9876852c8"...#
+#2026 09 20 03:01:37.073#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41986#
+[UploadAppStep] Calculating application digest: "gestao-reembolso-srv"#
+#2026 09 20 03:01:37.567#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-41986#
+Step "Upload App" finished#
+#2026 09 20 03:01:46.690#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70422#
+[StageAppStep] Executing task "stageAppTask" of process "8db735cf-b49f-11f1-8947-eeee0a817d23"...#
+#2026 09 20 03:01:46.691#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70422#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 09 20 03:01:46.691#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70422#
+[StageAppStep] Checking status of application "gestao-reembolso-db-deployer"...#
+#2026 09 20 03:01:46.691#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70422#
+[StageAppStep] Getting build "09d97b9b-72fc-4777-951a-b60c842a0f58"...#
+#2026 09 20 03:01:46.715#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70422#
+[StageAppStep] Staging status of application "gestao-reembolso-db-deployer": PENDING#
+#2026 09 20 03:01:46.716#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70422#
+[StageAppStep] Getting application guid "gestao-reembolso-db-deployer"...#
+#2026 09 20 03:01:46.793#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70422#
+Step "Stage App" finished#
+#2026 09 20 03:01:46.688#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70421#
+[UploadAppStep] Executing task "uploadAppTask" of process "980ca0a5-b49f-11f1-a367-eeee0a83654e"...#
+#2026 09 20 03:01:46.689#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70421#
+[UploadAppStep] Application upload timeout is default one: 3,600 seconds#
+#2026 09 20 03:01:46.690#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#pool-14-thread-2#
+[UploadAppStep] Upload of application: gestao-reembolso-srv started on instance: 0#
+#2026 09 20 03:01:46.690#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#pool-14-thread-2#
+[UploadAppStep] Uploading file "gestao-reembolso-srv/data.zip" for application "gestao-reembolso-srv"#
+#2026 09 20 03:01:47.175#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#pool-14-thread-2#
+[UploadAppStep] Time elapsed for app binary download: 484 in millis#
+#2026 09 20 03:01:47.175#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#pool-14-thread-2#
+[UploadAppStep] Size of app gestao-reembolso-srv is 47,842,940 bytes#
+#2026 09 20 03:01:47.175#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#pool-14-thread-2#
+[UploadAppStep] Asynchronously uploading binaries for application "gestao-reembolso-srv"...#
+#2026 09 20 03:01:47.654#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#pool-14-thread-2#
+[UploadAppStep] Started async upload of application "gestao-reembolso-srv"#
+#2026 09 20 03:01:47.658#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70421#
+[UploadAppStep] Time elapsed for upload: 968 in millis#
+#2026 09 20 03:01:47.658#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70421#
+[UploadAppStep] Getting application "gestao-reembolso-srv"...#
+#2026 09 20 03:01:47.679#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#App upload monitor: 856656cc-4e9f-46c0-8277-9d611a312fe4#
+[UploadAppStep] Upload status: PROCESSING_UPLOAD#
+#2026 09 20 03:01:47.682#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70421#
+[UploadAppStep] Getting environment of application "5ac231b3-ccd6-4161-a4dc-97f9876852c8"...#
+#2026 09 20 03:01:47.715#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70421#
+[UploadAppStep] Updating environment of application "gestao-reembolso-srv"#
+#2026 09 20 03:01:47.788#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70421#
+Step "Upload App" finished#
+#2026 09 20 03:01:52.704#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#App upload monitor: 856656cc-4e9f-46c0-8277-9d611a312fe4#
+[UploadAppStep] Upload status: PROCESSING_UPLOAD#
+#2026 09 20 03:01:56.724#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70430#
+[UploadAppStep] Executing task "uploadAppTask" of process "980ca0a5-b49f-11f1-a367-eeee0a83654e"...#
+#2026 09 20 03:01:56.724#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70430#
+[UploadAppStep] Application upload timeout is default one: 3,600 seconds#
+#2026 09 20 03:01:56.724#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70430#
+[UploadAppStep] Checking upload status of application "gestao-reembolso-srv"...#
+#2026 09 20 03:01:56.725#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70430#
+[UploadAppStep] Getting package "856656cc-4e9f-46c0-8277-9d611a312fe4"...#
+#2026 09 20 03:01:56.748#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70430#
+[UploadAppStep] Application "gestao-reembolso-srv" uploaded#
+#2026 09 20 03:01:56.749#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70430#
+Step "Upload App" finished#
+#2026 09 20 03:01:56.708#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70428#
+[StageAppStep] Executing task "stageAppTask" of process "8db735cf-b49f-11f1-8947-eeee0a817d23"...#
+#2026 09 20 03:01:56.709#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70428#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 09 20 03:01:56.710#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70428#
+[StageAppStep] Checking status of application "gestao-reembolso-db-deployer"...#
+#2026 09 20 03:01:56.710#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70428#
+[StageAppStep] Getting build "09d97b9b-72fc-4777-951a-b60c842a0f58"...#
+#2026 09 20 03:01:56.741#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70428#
+[StageAppStep] Staging status of application "gestao-reembolso-db-deployer": PENDING#
+#2026 09 20 03:01:56.742#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70428#
+[StageAppStep] Getting application guid "gestao-reembolso-db-deployer"...#
+#2026 09 20 03:01:56.809#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70428#
+Step "Stage App" finished#
+#2026 09 20 03:01:56.785#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70430#
+[ScaleAppStep] Executing task "scaleAppTask" of process "980ca0a5-b49f-11f1-a367-eeee0a83654e"...#
+#2026 09 20 03:01:56.786#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70430#
+[ScaleAppStep] Scaling application "gestao-reembolso-srv"...#
+#2026 09 20 03:01:56.786#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70430#
+[ScaleAppStep] Getting application guid "gestao-reembolso-srv"...#
+#2026 09 20 03:01:56.812#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70430#
+[ScaleAppStep] Getting process for application "5ac231b3-ccd6-4161-a4dc-97f9876852c8"...#
+#2026 09 20 03:01:56.846#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70430#
+[ScaleAppStep] Application "gestao-reembolso-srv" scaled#
+#2026 09 20 03:01:56.846#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70430#
+Step "Scale App" finished#
+#2026 09 20 03:01:56.873#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70430#
+[DetermineDesiredStateAchievingActionsStep] Executing task "determineDesiredStateAchievingActionsTask" of process "980ca0a5-b49f-11f1-a367-eeee0a83654e"...#
+#2026 09 20 03:01:56.874#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70430#
+[DetermineDesiredStateAchievingActionsStep] Getting application "gestao-reembolso-srv"...#
+#2026 09 20 03:01:56.909#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70430#
+[DetermineDesiredStateAchievingActionsStep] Getting instances for application "gestao-reembolso-srv"...#
+#2026 09 20 03:01:56.959#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70430#
+[DetermineDesiredStateAchievingActionsStep] Getting environment of application "5ac231b3-ccd6-4161-a4dc-97f9876852c8"...#
+#2026 09 20 03:01:56.994#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70430#
+[DetermineDesiredStateAchievingActionsStep] Current state of application gestao-reembolso-srv: STARTED#
+#2026 09 20 03:01:56.994#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70430#
+[DetermineDesiredStateAchievingActionsStep] Desired state of application gestao-reembolso-srv: STARTED#
+#2026 09 20 03:01:56.994#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70430#
+[DetermineDesiredStateAchievingActionsStep] Actions that should be executed on application gestao-reembolso-srv: [STOP, STAGE, START]#
+#2026 09 20 03:01:56.994#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70430#
+Step "Determine Desired State Achieving Actions" finished#
+#2026 09 20 03:01:57.024#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70430#
+[StopAppStep] Executing task "stopAppTask" of process "980ca0a5-b49f-11f1-a367-eeee0a83654e"...#
+#2026 09 20 03:01:57.025#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70430#
+[StopAppStep] Stopping application "gestao-reembolso-srv"...#
+#2026 09 20 03:01:57.030#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70430#
+[StopAppStep] Stopping application "gestao-reembolso-srv"...#
+#2026 09 20 03:01:57.160#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70430#
+[StopAppStep] Application "gestao-reembolso-srv" stopped#
+#2026 09 20 03:01:57.160#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70430#
+[StopAppStep] Getting environment of application "5ac231b3-ccd6-4161-a4dc-97f9876852c8"...#
+#2026 09 20 03:01:57.193#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70430#
+Step "Stop App" finished#
+#2026 09 20 03:01:57.235#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70430#
+[StageAppStep] Executing task "stageAppTask" of process "a4262926-b49f-11f1-8947-eeee0a817d23"...#
+#2026 09 20 03:01:57.236#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70430#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 09 20 03:01:57.242#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70430#
+[StageAppStep] Staging application "gestao-reembolso-srv"...#
+#2026 09 20 03:01:57.246#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70430#
+[StageAppStep] Creating build for package "856656cc-4e9f-46c0-8277-9d611a312fe4"...#
+#2026 09 20 03:01:57.662#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70430#
+Step "Stage App" finished#
+#2026 09 20 03:02:06.732#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70434#
+[StageAppStep] Executing task "stageAppTask" of process "8db735cf-b49f-11f1-8947-eeee0a817d23"...#
+#2026 09 20 03:02:06.733#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70434#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 09 20 03:02:06.734#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70434#
+[StageAppStep] Checking status of application "gestao-reembolso-db-deployer"...#
+#2026 09 20 03:02:06.734#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70434#
+[StageAppStep] Getting build "09d97b9b-72fc-4777-951a-b60c842a0f58"...#
+#2026 09 20 03:02:06.735#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70432#
+[StageAppStep] Executing task "stageAppTask" of process "a4262926-b49f-11f1-8947-eeee0a817d23"...#
+#2026 09 20 03:02:06.736#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70432#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 09 20 03:02:06.737#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70432#
+[StageAppStep] Checking status of application "gestao-reembolso-srv"...#
+#2026 09 20 03:02:06.737#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70432#
+[StageAppStep] Getting build "7171e399-37b3-4667-bbee-e923afd5396e"...#
+#2026 09 20 03:02:06.758#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70434#
+[StageAppStep] Staging status of application "gestao-reembolso-db-deployer": PENDING#
+#2026 09 20 03:02:06.760#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70434#
+[StageAppStep] Getting application guid "gestao-reembolso-db-deployer"...#
+#2026 09 20 03:02:06.765#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70432#
+[StageAppStep] Staging status of application "gestao-reembolso-srv": PENDING#
+#2026 09 20 03:02:06.767#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70432#
+[StageAppStep] Getting application guid "gestao-reembolso-srv"...#
+#2026 09 20 03:02:06.834#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70432#
+Step "Stage App" finished#
+#2026 09 20 03:02:06.842#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70434#
+Step "Stage App" finished#
+#2026 09 20 03:02:16.772#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70438#
+[StageAppStep] Executing task "stageAppTask" of process "a4262926-b49f-11f1-8947-eeee0a817d23"...#
+#2026 09 20 03:02:16.773#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70438#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 09 20 03:02:16.773#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70438#
+[StageAppStep] Checking status of application "gestao-reembolso-srv"...#
+#2026 09 20 03:02:16.773#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70438#
+[StageAppStep] Getting build "7171e399-37b3-4667-bbee-e923afd5396e"...#
+#2026 09 20 03:02:16.801#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70438#
+[StageAppStep] Staging status of application "gestao-reembolso-srv": PENDING#
+#2026 09 20 03:02:16.802#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70438#
+[StageAppStep] Getting application guid "gestao-reembolso-srv"...#
+#2026 09 20 03:02:16.888#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70438#
+Step "Stage App" finished#
+#2026 09 20 03:02:16.763#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32866#
+[StageAppStep] Executing task "stageAppTask" of process "8db735cf-b49f-11f1-8947-eeee0a817d23"...#
+#2026 09 20 03:02:16.765#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32866#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 09 20 03:02:16.766#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32866#
+[StageAppStep] Checking status of application "gestao-reembolso-db-deployer"...#
+#2026 09 20 03:02:16.766#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32866#
+[StageAppStep] Getting build "09d97b9b-72fc-4777-951a-b60c842a0f58"...#
+#2026 09 20 03:02:16.791#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32866#
+[StageAppStep] Staging status of application "gestao-reembolso-db-deployer": STAGED#
+#2026 09 20 03:02:16.792#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32866#
+[StageAppStep] Getting application guid "gestao-reembolso-db-deployer"...#
+#2026 09 20 03:02:16.879#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32866#
+[StageAppStep] Getting build "09d97b9b-72fc-4777-951a-b60c842a0f58"...#
+#2026 09 20 03:02:16.907#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32866#
+[StageAppStep] Binding droplet "fa962ba1-6160-4496-92f0-2b3c77d935a6" to application "28eee1c0-1006-4225-bf57-a2fdb7dae99f"...#
+#2026 09 20 03:02:16.959#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32866#
+[StageAppStep] Application "gestao-reembolso-db-deployer" staged#
+#2026 09 20 03:02:16.964#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32866#
+Step "Stage App" finished#
+#2026 09 20 03:02:17.051#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32868#
+[PrepareToExecuteTasksStep] Executing task "prepareToExecuteTasksTask" of process "aff4c67c-b49f-11f1-b631-eeee0a9b49e1"...#
+#2026 09 20 03:02:17.053#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32868#
+Step "Prepare To Execute Tasks" finished#
+#2026 09 20 03:02:17.081#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32869#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "aff4c67c-b49f-11f1-b631-eeee0a9b49e1"...#
+#2026 09 20 03:02:17.082#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32869#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2026 09 20 03:02:17.083#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32869#
+[ExecuteTaskStep] Executing task "deploy" on application "gestao-reembolso-db-deployer"...#
+#2026 09 20 03:02:17.087#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32869#
+[ExecuteTaskStep] Running task on application "gestao-reembolso-db-deployer": {
+  "name" : "deploy",
+  "command" : "npm start",
+  "limits" : {
+    "memory" : 256
+  }
+}#
+#2026 09 20 03:02:17.340#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32869#
+Step "Execute Task" finished#
+#2026 09 20 03:02:26.790#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-42022#
+[StageAppStep] Executing task "stageAppTask" of process "a4262926-b49f-11f1-8947-eeee0a817d23"...#
+#2026 09 20 03:02:26.790#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-42022#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 09 20 03:02:26.791#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-42022#
+[StageAppStep] Checking status of application "gestao-reembolso-srv"...#
+#2026 09 20 03:02:26.791#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-42022#
+[StageAppStep] Getting build "7171e399-37b3-4667-bbee-e923afd5396e"...#
+#2026 09 20 03:02:26.817#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-42022#
+[StageAppStep] Staging status of application "gestao-reembolso-srv": PENDING#
+#2026 09 20 03:02:26.818#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-42022#
+[StageAppStep] Getting application guid "gestao-reembolso-srv"...#
+#2026 09 20 03:02:26.905#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-42022#
+Step "Stage App" finished#
+#2026 09 20 03:02:26.792#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-42023#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "aff4c67c-b49f-11f1-b631-eeee0a9b49e1"...#
+#2026 09 20 03:02:26.793#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-42023#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2026 09 20 03:02:26.794#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-42023#
+[ExecuteTaskStep] Getting task "ae7a537a-3e75-4f9c-9c9f-6e29ce0f7dd1"...#
+#2026 09 20 03:02:26.817#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-42023#
+[ExecuteTaskStep] Task execution status: running#
+#2026 09 20 03:02:26.818#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-42023#
+[ExecuteTaskStep] Getting application guid "gestao-reembolso-db-deployer"...#
+#2026 09 20 03:02:26.928#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-42023#
+Step "Execute Task" finished#
+#2026 09 20 03:02:36.909#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70458#
+[StageAppStep] Executing task "stageAppTask" of process "a4262926-b49f-11f1-8947-eeee0a817d23"...#
+#2026 09 20 03:02:36.910#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70458#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 09 20 03:02:36.910#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70458#
+[StageAppStep] Checking status of application "gestao-reembolso-srv"...#
+#2026 09 20 03:02:36.910#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70458#
+[StageAppStep] Getting build "7171e399-37b3-4667-bbee-e923afd5396e"...#
+#2026 09 20 03:02:36.942#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70458#
+[StageAppStep] Staging status of application "gestao-reembolso-srv": PENDING#
+#2026 09 20 03:02:36.943#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70458#
+[StageAppStep] Getting application guid "gestao-reembolso-srv"...#
+#2026 09 20 03:02:37.013#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70458#
+Step "Stage App" finished#
+#2026 09 20 03:02:37.034#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70456#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "aff4c67c-b49f-11f1-b631-eeee0a9b49e1"...#
+#2026 09 20 03:02:37.035#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70456#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2026 09 20 03:02:37.036#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70456#
+[ExecuteTaskStep] Getting task "ae7a537a-3e75-4f9c-9c9f-6e29ce0f7dd1"...#
+#2026 09 20 03:02:37.064#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70456#
+[ExecuteTaskStep] Task execution status: failed#
+#2026 09 20 03:02:37.066#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70456#
+[ExecuteTaskStep] Getting application guid "gestao-reembolso-db-deployer"...#
+#2026 09 20 03:02:37.149#Z#ERROR#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70456#
+[ExecuteTaskStep] Execution of task "deploy" on application "gestao-reembolso-db-deployer" failed.#
+#2026 09 20 03:02:37.153#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70456#
+[ExecuteTaskStep] Download the MTA operation logs for more details.#
+#2026 09 20 03:02:37.156#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70456#
+Step "Execute Task" finished#
+#2026 09 20 03:02:39.934#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70455#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "aff4c67c-b49f-11f1-b631-eeee0a9b49e1"...#
+#2026 09 20 03:02:39.935#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70455#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2026 09 20 03:02:44.471#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70455#
+[ExecuteTaskStep] Executing task "deploy" on application "gestao-reembolso-db-deployer"...#
+#2026 09 20 03:02:44.474#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70455#
+[ExecuteTaskStep] Running task on application "gestao-reembolso-db-deployer": {
+  "name" : "deploy",
+  "command" : "npm start",
+  "limits" : {
+    "memory" : 256
+  }
+}#
+#2026 09 20 03:02:44.754#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70455#
+Step "Execute Task" finished#
+#2026 09 20 03:02:46.858#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70464#
+[StageAppStep] Executing task "stageAppTask" of process "a4262926-b49f-11f1-8947-eeee0a817d23"...#
+#2026 09 20 03:02:46.859#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70464#
+[StageAppStep] Application stage timeout is default one: 3,600 seconds#
+#2026 09 20 03:02:46.859#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70464#
+[StageAppStep] Checking status of application "gestao-reembolso-srv"...#
+#2026 09 20 03:02:46.859#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70464#
+[StageAppStep] Getting build "7171e399-37b3-4667-bbee-e923afd5396e"...#
+#2026 09 20 03:02:46.886#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70464#
+[StageAppStep] Staging status of application "gestao-reembolso-srv": STAGED#
+#2026 09 20 03:02:46.888#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70464#
+[StageAppStep] Getting application guid "gestao-reembolso-srv"...#
+#2026 09 20 03:02:46.967#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70464#
+[StageAppStep] Getting build "7171e399-37b3-4667-bbee-e923afd5396e"...#
+#2026 09 20 03:02:46.996#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70464#
+[StageAppStep] Binding droplet "235876da-5e4b-45dc-9371-e4b60470b84f" to application "5ac231b3-ccd6-4161-a4dc-97f9876852c8"...#
+#2026 09 20 03:02:47.049#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70464#
+[StageAppStep] Application "gestao-reembolso-srv" staged#
+#2026 09 20 03:02:47.054#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70464#
+Step "Stage App" finished#
+#2026 09 20 03:02:47.077#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70464#
+[RestartAppStep] Executing task "startAppTask" of process "a4262926-b49f-11f1-8947-eeee0a817d23"...#
+#2026 09 20 03:02:47.079#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70464#
+[RestartAppStep] Application start timeout is default one: 3,600 seconds#
+#2026 09 20 03:02:47.083#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70464#
+[RestartAppStep] Getting application "gestao-reembolso-srv"...#
+#2026 09 20 03:02:47.108#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70464#
+[RestartAppStep] Starting application "gestao-reembolso-srv"...#
+#2026 09 20 03:02:47.112#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70464#
+[RestartAppStep] Starting application "gestao-reembolso-srv"...#
+#2026 09 20 03:02:47.351#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70464#
+Step "Start App" finished#
+#2026 09 20 03:02:56.895#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-42031#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "aff4c67c-b49f-11f1-b631-eeee0a9b49e1"...#
+#2026 09 20 03:02:56.896#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-42031#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2026 09 20 03:02:56.897#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-42031#
+[ExecuteTaskStep] Getting task "9c9b92f2-58ac-4dd4-a50e-41db2168a608"...#
+#2026 09 20 03:02:56.925#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-42031#
+[ExecuteTaskStep] Task execution status: running#
+#2026 09 20 03:02:56.926#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-42031#
+[ExecuteTaskStep] Getting application guid "gestao-reembolso-db-deployer"...#
+#2026 09 20 03:02:57.012#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-42031#
+Step "Execute Task" finished#
+#2026 09 20 03:02:56.886#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70474#
+[RestartAppStep] Executing task "startAppTask" of process "c20b82fa-b49f-11f1-8947-eeee0a817d23"...#
+#2026 09 20 03:02:56.887#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70474#
+[RestartAppStep] Application start timeout is default one: 3,600 seconds#
+#2026 09 20 03:02:56.888#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70474#
+[RestartAppStep] Checking status of application "gestao-reembolso-srv"...#
+#2026 09 20 03:02:56.888#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70474#
+[RestartAppStep] Getting application "gestao-reembolso-srv"...#
+#2026 09 20 03:02:56.923#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70474#
+[RestartAppStep] Getting instances for application "gestao-reembolso-srv"...#
+#2026 09 20 03:02:56.962#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70474#
+[RestartAppStep] Application "gestao-reembolso-srv": 0 of 1 instances running (1 starting)#
+#2026 09 20 03:02:57.022#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70474#
+Step "Start App" finished#
+#2026 09 20 03:03:06.923#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32896#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "aff4c67c-b49f-11f1-b631-eeee0a9b49e1"...#
+#2026 09 20 03:03:06.924#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32896#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2026 09 20 03:03:06.925#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32896#
+[ExecuteTaskStep] Getting task "9c9b92f2-58ac-4dd4-a50e-41db2168a608"...#
+#2026 09 20 03:03:06.956#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32896#
+[ExecuteTaskStep] Task execution status: failed#
+#2026 09 20 03:03:06.957#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32896#
+[ExecuteTaskStep] Getting application guid "gestao-reembolso-db-deployer"...#
+#2026 09 20 03:03:07.024#Z#ERROR#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32896#
+[ExecuteTaskStep] Execution of task "deploy" on application "gestao-reembolso-db-deployer" failed.#
+#2026 09 20 03:03:07.029#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32896#
+[ExecuteTaskStep] Download the MTA operation logs for more details.#
+#2026 09 20 03:03:07.032#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-32896#
+Step "Execute Task" finished#
+#2026 09 20 03:03:06.902#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70479#
+[RestartAppStep] Executing task "startAppTask" of process "c7cf3092-b49f-11f1-8947-eeee0a817d23"...#
+#2026 09 20 03:03:06.903#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70479#
+[RestartAppStep] Application start timeout is default one: 3,600 seconds#
+#2026 09 20 03:03:06.903#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70479#
+[RestartAppStep] Checking status of application "gestao-reembolso-srv"...#
+#2026 09 20 03:03:06.903#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70479#
+[RestartAppStep] Getting instances for application "gestao-reembolso-srv"...#
+#2026 09 20 03:03:06.956#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70479#
+[RestartAppStep] Application "gestao-reembolso-srv": 1 of 1 instances running (1 running)#
+#2026 09 20 03:03:07.026#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70479#
+[RestartAppStep] Getting routes for application "5ac231b3-ccd6-4161-a4dc-97f9876852c8"...#
+#2026 09 20 03:03:07.054#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70479#
+[RestartAppStep] Application "gestao-reembolso-srv" started and available at "a9f81c0dtrial-a9f81c0dtrial-dev-gestao-reembolso-srv.cfapps.us10-001.hana.ondemand.com"#
+#2026 09 20 03:03:07.058#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70479#
+Step "Start App" finished#
+#2026 09 20 03:03:08.877#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70478#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "aff4c67c-b49f-11f1-b631-eeee0a9b49e1"...#
+#2026 09 20 03:03:08.878#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70478#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2026 09 20 03:03:08.879#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70478#
+[ExecuteTaskStep] Executing task "deploy" on application "gestao-reembolso-db-deployer"...#
+#2026 09 20 03:03:08.882#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70478#
+[ExecuteTaskStep] Running task on application "gestao-reembolso-db-deployer": {
+  "name" : "deploy",
+  "command" : "npm start",
+  "limits" : {
+    "memory" : 256
+  }
+}#
+#2026 09 20 03:03:09.135#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70478#
+Step "Execute Task" finished#
+#2026 09 20 03:03:16.917#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70483#
+[RestartAppStep] Executing task "startAppTask" of process "cdca8f8a-b49f-11f1-8947-eeee0a817d23"...#
+#2026 09 20 03:03:16.918#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70483#
+[RestartAppStep] Application start timeout is default one: 3,600 seconds#
+#2026 09 20 03:03:16.918#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70483#
+Step "Start App" finished#
+#2026 09 20 03:03:16.975#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70483#
+[PrepareToExecuteTasksStep] Executing task "prepareToExecuteTasksTask" of process "d3ae96d4-b49f-11f1-8947-eeee0a817d23"...#
+#2026 09 20 03:03:16.976#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70483#
+Step "Prepare To Execute Tasks" finished#
+#2026 09 20 03:03:16.918#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70488#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "aff4c67c-b49f-11f1-b631-eeee0a9b49e1"...#
+#2026 09 20 03:03:16.920#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70488#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2026 09 20 03:03:16.920#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70488#
+[ExecuteTaskStep] Getting task "64564ec2-485e-4bbf-a143-e1c89b749f79"...#
+#2026 09 20 03:03:16.941#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70488#
+[ExecuteTaskStep] Task execution status: running#
+#2026 09 20 03:03:16.942#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70488#
+[ExecuteTaskStep] Getting application guid "gestao-reembolso-db-deployer"...#
+#2026 09 20 03:03:17.002#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70488#
+Step "Execute Task" finished#
+#2026 09 20 03:03:17.010#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70483#
+[PublishConfigurationEntriesStep] Executing task "publishProvidedDependenciesTask" of process "d3ab143a-b49f-11f1-8947-eeee0a817d23"...#
+#2026 09 20 03:03:17.010#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70483#
+[PublishConfigurationEntriesStep] Publishing public provided dependencies for application "gestao-reembolso-srv"...#
+#2026 09 20 03:03:17.011#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70483#
+[PublishConfigurationEntriesStep] No public provided dependencies for publishing#
+#2026 09 20 03:03:17.011#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70483#
+Step "Publish Provided Dependencies" finished#
+#2026 09 20 03:03:17.029#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70483#
+[CreateOrUpdateServiceBrokerStep] Executing task "createOrUpdateServiceBrokerTask" of process "d3ab143a-b49f-11f1-8947-eeee0a817d23"...#
+#2026 09 20 03:03:17.030#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70483#
+[CreateOrUpdateServiceBrokerStep] Creating service brokers...#
+#2026 09 20 03:03:17.031#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70483#
+Step "Create Or Update Service Broker " finished#
+#2026 09 20 03:03:26.949#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70494#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "aff4c67c-b49f-11f1-b631-eeee0a9b49e1"...#
+#2026 09 20 03:03:26.950#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70494#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2026 09 20 03:03:26.951#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70494#
+[ExecuteTaskStep] Getting task "64564ec2-485e-4bbf-a143-e1c89b749f79"...#
+#2026 09 20 03:03:26.972#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70494#
+[ExecuteTaskStep] Task execution status: failed#
+#2026 09 20 03:03:26.974#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70494#
+[ExecuteTaskStep] Getting application guid "gestao-reembolso-db-deployer"...#
+#2026 09 20 03:03:27.023#Z#ERROR#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70494#
+[ExecuteTaskStep] Execution of task "deploy" on application "gestao-reembolso-db-deployer" failed.#
+#2026 09 20 03:03:27.026#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70494#
+[ExecuteTaskStep] Download the MTA operation logs for more details.#
+#2026 09 20 03:03:27.029#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70494#
+Step "Execute Task" finished#
+#2026 09 20 03:03:28.365#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70497#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "aff4c67c-b49f-11f1-b631-eeee0a9b49e1"...#
+#2026 09 20 03:03:28.366#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70497#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2026 09 20 03:03:28.420#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70497#
+[ExecuteTaskStep] Executing task "deploy" on application "gestao-reembolso-db-deployer"...#
+#2026 09 20 03:03:28.423#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70497#
+[ExecuteTaskStep] Running task on application "gestao-reembolso-db-deployer": {
+  "name" : "deploy",
+  "command" : "npm start",
+  "limits" : {
+    "memory" : 256
+  }
+}#
+#2026 09 20 03:03:28.702#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-70497#
+Step "Execute Task" finished#
+#2026 09 20 03:03:36.996#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-42049#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "aff4c67c-b49f-11f1-b631-eeee0a9b49e1"...#
+#2026 09 20 03:03:36.997#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-42049#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2026 09 20 03:03:36.999#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-42049#
+[ExecuteTaskStep] Getting task "32e03209-47a8-4ff0-9038-c437732d2193"...#
+#2026 09 20 03:03:37.031#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-42049#
+[ExecuteTaskStep] Task execution status: running#
+#2026 09 20 03:03:37.032#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-42049#
+[ExecuteTaskStep] Getting application guid "gestao-reembolso-db-deployer"...#
+#2026 09 20 03:03:37.115#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-42049#
+Step "Execute Task" finished#
+#2026 09 20 03:03:47.031#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-42056#
+[ExecuteTaskStep] Executing task "executeTaskTask" of process "aff4c67c-b49f-11f1-b631-eeee0a9b49e1"...#
+#2026 09 20 03:03:47.032#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-42056#
+[ExecuteTaskStep] Application task execution timeout is default one: 43,200 seconds#
+#2026 09 20 03:03:47.033#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-42056#
+[ExecuteTaskStep] Getting task "32e03209-47a8-4ff0-9038-c437732d2193"...#
+#2026 09 20 03:03:47.060#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-42056#
+[ExecuteTaskStep] Task execution status: failed#
+#2026 09 20 03:03:47.062#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-42056#
+[ExecuteTaskStep] Getting application guid "gestao-reembolso-db-deployer"...#
+#2026 09 20 03:03:47.149#Z#ERROR#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-42056#
+[ExecuteTaskStep] Execution of task "deploy" on application "gestao-reembolso-db-deployer" failed.#
+#2026 09 20 03:03:47.156#Z#INFO#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-42056#
+[ExecuteTaskStep] Download the MTA operation logs for more details.#
+#2026 09 20 03:03:47.160#Z#DEBUG#8469ec21-b49f-11f1-a367-eeee0a83654e.OPERATION#flowable-async-job-executor-thread-42056#
+Step "Execute Task" finished#

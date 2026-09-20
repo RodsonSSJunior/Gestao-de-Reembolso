@@ -1,0 +1,10 @@
+{
+    "Service": "/ReembolsoApp/Services/ReembolsoService.service",
+    "_Type": "Action.Type.ODataService.Initialize",
+    "ShowActivityIndicator": true,
+    "OnFailure": "/ReembolsoApp/Actions/ReembolsoService/Service/InitializeOnlineFailureMessage.action",
+    "OnSuccess": "/ReembolsoApp/Actions/ReembolsoService/SolicitacoesReembolso/NavToReembolsos_Aprovados.action",
+    "ActionResult": {
+        "_Name": "init"
+    }
+}

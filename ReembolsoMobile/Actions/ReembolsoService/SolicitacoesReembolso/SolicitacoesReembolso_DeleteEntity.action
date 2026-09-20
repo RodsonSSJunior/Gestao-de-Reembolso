@@ -1,0 +1,13 @@
+{
+    "Target": {
+        "EntitySet": "SolicitacoesReembolso",
+        "Service": "/ReembolsoApp/Services/ReembolsoService.service",
+        "ReadLink": "{@odata.readLink}"
+    },
+    "OnSuccess": "/ReembolsoApp/Actions/DeleteEntitySuccessMessage.action",
+    "OnFailure": "/ReembolsoApp/Actions/DeleteEntityFailureMessage.action",
+    "ActionResult": {
+        "_Name": "delete"
+    },
+    "_Type": "Action.Type.ODataService.DeleteEntity"
+}

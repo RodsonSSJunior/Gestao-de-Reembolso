@@ -1,0 +1,8 @@
+{
+    "_Type": "Action.Type.ApplicationUpdate",
+    "ActionResult": {
+        "_Name": "AppUpdate"
+    },
+    "OnFailure": "/ReembolsoApp/Rules/Application/AppUpdateFailure.js",
+    "OnSuccess": "/ReembolsoApp/Rules/Application/AppUpdateSuccess.js"
+}

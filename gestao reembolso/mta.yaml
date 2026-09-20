@@ -1,0 +1,46 @@
+_schema-version: 3.3.0
+ID: gestao-reembolso
+version: 1.0.0
+description: "A simple CAP project."
+parameters:
+  enable-parallel-deployments: true
+build-parameters:
+  before-all:
+    - builder: custom
+      commands:
+        - npm ci
+        - npx cds build --production
+modules:
+  - name: gestao-reembolso-srv
+    type: nodejs
+    path: gen/srv
+    parameters:
+      instances: 1
+      buildpack: nodejs_buildpack
+    build-parameters:
+      builder: npm-ci
+    provides:
+      - name: srv-api
+        properties:
+          srv-url: ${default-url}
+    requires:
+      - name: gestao-reembolso-db
+      # - name: gestao-reembolso-auth # Descomenta se usares XSUAA/UAA para autenticação
+    properties:
+      CDS_REQUIRES_AUTH_KIND: mocked
+      CDS_REQUIRES_AUTH_USERS: '{"solicitante":{"password":"123","roles":["SOLICITANTE"]},"aprovador":{"password":"123","roles":["APROVADOR"]}}'
+
+  - name: gestao-reembolso-db-deployer
+    type: hdb
+    path: gen/db
+    parameters:
+      buildpack: nodejs_buildpack
+    requires:
+      - name: gestao-reembolso-db
+
+resources:
+  - name: gestao-reembolso-db
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service: hana
+      service-plan: hdi-shared

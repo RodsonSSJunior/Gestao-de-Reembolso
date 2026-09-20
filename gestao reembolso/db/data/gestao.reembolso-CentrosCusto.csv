@@ -1,0 +1,4 @@
+codigo;descricao;responsavelEmail;ativo
+CC-1010;TI e Infraestrutura;aprovador@empresa.com;true
+CC-2020;Vendas e Marketing;aprovador@empresa.com;true
+CC-3030;Recursos Humanos;aprovador@empresa.com;true

@@ -1,0 +1,125 @@
+{
+	"Controls": [
+		{
+			"FilterFeedbackBar": {
+				"ShowAllFilters": false,
+				"_Type": "Control.Type.FilterFeedbackBar"
+			},
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable0",
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "descricao",
+							"RequiredIndicator": true,
+							"IsVisible": true,
+							"Separator": true,
+							"Caption": "Descrição",
+							"PlaceHolder": "Ex: Almoço com cliente",
+							"Enabled": true,
+							"IsEditable": true
+						},
+						{
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "valor",
+							"RequiredIndicator": true,
+							"IsVisible": true,
+							"Separator": true,
+							"Caption": "Valor (R$)",
+							"PlaceHolder": "0.00",
+							"KeyboardType": "Number",
+							"Enabled": true,
+							"IsEditable": true
+						},
+						{
+							"_Type": "Control.Type.FormCell.ListPicker",
+							"_Name": "categoria",
+							"Caption": "Categoria",
+							"IsEditable": true,
+							"IsVisible": true,
+							"AllowMultipleSelection": false,
+							"AllowEmptySelection": false,
+							"PickerItems": [
+								{
+									"DisplayValue": "Alimentação",
+									"ReturnValue": "Alimentacao"
+								},
+								{
+									"DisplayValue": "Transporte",
+									"ReturnValue": "Transporte"
+								},
+								{
+									"DisplayValue": "Hospedagem",
+									"ReturnValue": "Hospedagem"
+								},
+								{
+									"DisplayValue": "Viagem",
+									"ReturnValue": "Viagem"
+								},
+								{
+									"DisplayValue": "Outros",
+									"ReturnValue": "Outros"
+								}
+							]
+						},
+						{
+							"Value": "BRL",
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "moeda",
+							"RequiredIndicator": false,
+							"IsVisible": true,
+							"Separator": true,
+							"Caption": "Moeda",
+							"Enabled": true,
+							"IsEditable": true
+						}
+					],
+					"Separators": {
+						"TopSectionSeparator": false,
+						"BottomSectionSeparator": true,
+						"HeaderSeparator": true,
+						"FooterSeparator": true,
+						"ControlSeparator": true
+					},
+					"Visible": true,
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"_Type": "Section.Type.FormCell",
+					"_Name": "SectionFormCell0"
+				}
+			]
+		}
+	],
+	"_Type": "Page",
+	"_Name": "SolicitacoesReembolso_Create",
+	"ActionBar": {
+		"Items": [
+			{
+				"_Type": "Control.Type.ActionBarItem",
+				"_Name": "ActionBarItem0",
+				"Caption": "",
+				"SystemItem": "Cancel",
+				"Width": 18,
+				"Position": "Left",
+				"IsIconCircular": false,
+				"OnPress": "/ReembolsoApp/Actions/CloseModalPage_Cancel.action"
+			},
+			{
+				"_Type": "Control.Type.ActionBarItem",
+				"_Name": "ActionBarItem1",
+				"Caption": "Salvar",
+				"SystemItem": "Done",
+				"Width": 18,
+				"Position": "Right",
+				"IsIconCircular": false,
+				"OnPress": "/ReembolsoApp/Actions/ReembolsoService/SolicitacoesReembolso/SolicitacoesReembolso_CreateEntity.action"
+			}
+		],
+		"_Name": "ActionBar0",
+		"_Type": "Control.Type.ActionBar",
+		"Caption": "Novo Reembolso"
+	}
+}

@@ -1,0 +1,50 @@
+{
+	"Controls": [
+		{
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable0",
+			"Sections": [
+				{
+					"_Type": "Section.Type.FormCell",
+					"_Name": "SectionFormCell0",
+					"Controls": [
+						{
+							"_Type": "Control.Type.FormCell.SimpleProperty",
+							"_Name": "motivo",
+							"Caption": "Motivo da rejeição",
+							"RequiredIndicator": true,
+							"IsVisible": true,
+							"Separator": true,
+							"Enabled": true,
+							"IsEditable": true
+						}
+					]
+				}
+			]
+		}
+	],
+	"_Type": "Page",
+	"_Name": "SolicitacoesReembolso_RejeitarPrompt",
+	"ActionBar": {
+		"Items": [
+			{
+				"_Type": "Control.Type.ActionBarItem",
+				"_Name": "ActionBarItem0",
+				"SystemItem": "Cancel",
+				"Position": "Left",
+				"OnPress": "/ReembolsoApp/Actions/CloseModalPage_Cancel.action"
+			},
+			{
+				"_Type": "Control.Type.ActionBarItem",
+				"_Name": "ActionBarItem1",
+				"Caption": "Confirmar",
+				"SystemItem": "Done",
+				"Position": "Right",
+				"OnPress": "/ReembolsoApp/Actions/ReembolsoService/SolicitacoesReembolso/RejeitarReembolso.action"
+			}
+		],
+		"_Name": "ActionBar0",
+		"_Type": "Control.Type.ActionBar",
+		"Caption": "Rejeitar Solicitação"
+	}
+}

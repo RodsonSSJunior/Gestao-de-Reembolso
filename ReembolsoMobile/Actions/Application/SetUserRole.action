@@ -1,0 +1,12 @@
+{
+	"_Type": "Action.Type.ODataService.CallFunction",
+	"Target": {
+		"Function": {
+			"Name": "getMyProfile",
+			"Parameters": {}
+		},
+		"Service": "/ReembolsoApp/Services/ReembolsoService.service"
+	},
+	"ActionResult": { "_Name": "MyProfileResult" },
+	"OnSuccess": "/ReembolsoApp/Rules/Application/StoreUserRole.js"
+}

@@ -1,0 +1,119 @@
+{
+	"DesignTimeTarget": {
+		"Service": "/ReembolsoApp/Services/ReembolsoService.service",
+		"EntitySet": "SolicitacoesReembolso",
+		"QueryOptions": ""
+	},
+	"ActionBar": {
+		"Items": [
+			{
+				"OnPress": "/ReembolsoApp/Rules/ReembolsoService/SolicitacoesReembolso/SolicitacoesReembolso_DeleteConfirmation.js",
+				"Position": "Right",
+				"SystemItem": "Trash",
+				"Visible": "/ReembolsoApp/Rules/Application/PodeEditarOuExcluir.js",
+				"_Type": "Control.Type.ActionBarItem"
+			}
+		],
+		"Caption": "$(L,SolicitacoesReembolso_Detail)",
+		"_Type": "Control.Type.ActionBar"
+	},
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"ObjectHeader": {
+						"Tags": [],
+						"DetailImage": "",
+						"HeadlineText": "{ID}",
+						"Subhead": "{descricao}",
+						"BodyText": "",
+						"Footnote": "{categoria}",
+						"Description": "{valor}",
+						"StatusText": "{status}",
+						"StatusImage": "",
+						"SubstatusImage": "",
+						"SubstatusText": "{moeda}"
+					},
+					"_Type": "Section.Type.ObjectHeader"
+				},
+				{
+					"KeyAndValues": [
+						{
+							"KeyName": "descricao",
+							"Value": "{descricao}",
+							"_Type": "KeyValue.Type.Item"
+						},
+						{
+							"KeyName": "valor",
+							"Value": "{valor}",
+							"_Type": "KeyValue.Type.Item"
+						},
+						{
+							"KeyName": "categoria",
+							"Value": "{categoria}",
+							"_Type": "KeyValue.Type.Item"
+						},
+						{
+							"KeyName": "status",
+							"Value": "{status}",
+							"_Type": "KeyValue.Type.Item"
+						},
+						{
+							"KeyName": "moeda",
+							"Value": "{moeda}",
+							"_Type": "KeyValue.Type.Item"
+						},
+						{
+							"KeyName": "valor Convertido",
+							"Value": "{valorConvertido}",
+							"_Type": "KeyValue.Type.Item"
+						},
+						{
+							"KeyName": "motivo Analise",
+							"Value": "{motivoAnalise}",
+							"_Type": "KeyValue.Type.Item"
+						}
+					],
+					"Layout": {
+						"NumberOfColumns": 2
+					},
+					"MaxItemCount": 1,
+					"_Name": "SectionKeyValue0",
+					"_Type": "Section.Type.KeyValue"
+				},
+				{
+					"_Name": "SectionButtonTable_Aprovacao",
+					"_Type": "Section.Type.ButtonTable",
+					"Visible": "/ReembolsoApp/Rules/Application/IsAprovador.js",
+					"Header": {
+						"Caption": "Ações do Aprovador",
+						"_Type": "SectionCommon.Type.Header"
+					},
+					"Buttons": [
+						{
+							"_Type": "ButtonTable.Type.Button",
+							"Title": "Aprovar",
+							"ButtonType": "Text",
+							"Alignment": "Center",
+							"Visible": "/ReembolsoApp/Rules/Application/PodeAprovarOuRejeitar.js",
+							"OnPress": "/ReembolsoApp/Actions/ReembolsoService/SolicitacoesReembolso/AprovarReembolso.action"
+						},
+						{
+							"_Type": "ButtonTable.Type.Button",
+							"Title": "Rejeitar",
+							"ButtonType": "Text",
+							"Alignment": "Center",
+							"Visible": "/ReembolsoApp/Rules/Application/PodeAprovarOuRejeitar.js",
+							"OnPress": "/ReembolsoApp/Actions/ReembolsoService/SolicitacoesReembolso/NavToRejeitarReembolso_Prompt.action"
+						}
+					]
+				}
+			],
+			"DataSubscriptions": [],
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable"
+		}
+	],
+	"_Type": "Page",
+	"_Name": "SolicitacoesReembolso_Detail"
+}

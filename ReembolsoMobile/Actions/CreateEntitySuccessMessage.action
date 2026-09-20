@@ -1,0 +1,8 @@
+{
+    "Animated": true,
+    "Duration": 2,
+    "Message": "$(L,Action_Entity_Created)",
+    "IsIconHidden": true,
+    "OnSuccess": "/ReembolsoApp/Actions/CloseModalPage_Complete.action",
+    "_Type": "Action.Type.ToastMessage"
+}

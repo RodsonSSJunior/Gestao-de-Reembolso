@@ -1,0 +1,15 @@
+{
+    "_Type": "Action.Type.ODataService.CreateEntity",
+    "Target": {
+        "Service": "/ReembolsoApp/Services/ReembolsoService.service",
+        "EntitySet": "SolicitacoesReembolso"
+    },
+    "Properties": {
+        "descricao": "#Control:descricao/#Value",
+        "valor": "#Control:valor/#Value",
+        "categoria": "#Control:categoria/#SelectedValue",
+        "moeda": "#Control:moeda/#Value"
+    },
+    "OnSuccess": "/ReembolsoApp/Actions/CloseModalPage_Complete.action",
+    "OnFailure": "/ReembolsoApp/Actions/CreateEntityFailureMessage.action"
+}

@@ -1,0 +1,16 @@
+{
+    "_Type": "Action.Type.ODataService.UpdateEntity",
+    "ActionResult": {
+        "_Name": "AprovarReembolsoResult"
+    },
+    "OnSuccess": "/ReembolsoApp/Actions/GenericBannerMessage.action",
+    "OnFailure": "/ReembolsoApp/Actions/GenericBannerMessage.action",
+    "Target": {
+        "EntitySet": "SolicitacoesReembolso",
+        "Service": "/ReembolsoApp/Services/ReembolsoService.service",
+        "ReadLink": "{@odata.readLink}"
+    },
+    "Properties": {
+        "status": "APROVADO_MANUAL"
+    }
+}

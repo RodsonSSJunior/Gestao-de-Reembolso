@@ -1,0 +1,5 @@
+{
+	"_Type": "Action.Type.Navigation",
+	"Style": "Modal",
+	"PageToOpen": "/ReembolsoApp/Pages/ReembolsoService_SolicitacoesReembolso/SolicitacoesReembolso_RejeitarPrompt.page"
+}

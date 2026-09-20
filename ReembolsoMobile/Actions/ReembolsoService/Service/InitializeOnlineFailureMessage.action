@@ -1,0 +1,6 @@
+{
+    "Message": "$(L,Action_Init_Failure) - {#ActionResults:init/error}",
+    "Duration": 7,
+    "Animated": true,
+    "_Type": "Action.Type.BannerMessage"
+}

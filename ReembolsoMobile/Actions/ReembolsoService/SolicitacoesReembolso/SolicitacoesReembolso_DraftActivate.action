@@ -1,0 +1,15 @@
+{
+    "_Type": "Action.Type.ODataService.DraftEnabled.Save",
+    "ActionResult": {
+        "_Name": "ResultadoActivate"
+    },
+    "Target": {
+        "Service": "/ReembolsoApp/Services/ReembolsoService.service",
+        "EntitySet": "SolicitacoesReembolso",
+        "ReadLink": "SolicitacoesReembolso(ID={#ActionResults:update/data/ID},IsActiveEntity=false)"
+    },
+    "ShowActivityIndicator": true,
+    "ActivityIndicatorText": "Finalizando solicitação...",
+    "OnSuccess": "/ReembolsoApp/Actions/CloseModalPage_Complete.action",
+    "OnFailure": "/ReembolsoApp/Actions/ReembolsoService/SolicitacoesReembolso/DraftActivateFailureMessage.action"
+}

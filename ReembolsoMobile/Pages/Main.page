@@ -1,0 +1,138 @@
+{
+	"Controls": [
+		{
+			"FilterFeedbackBar": {
+				"ShowAllFilters": false,
+				"_Type": "Control.Type.FilterFeedbackBar"
+			},
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable0",
+			"Sections": [
+				{
+					"_Type": "Section.Type.ObjectHeader",
+					"_Name": "ObjectHeaderSection",
+					"ObjectHeader": {
+						"HeadlineText": "Gestão de Reembolsos",
+						"Subhead": "#Page:Main/#ClientData/UserRole",
+						"BodyText": "Acompanhe e gerencie solicitações de forma rápida e segura.",
+						"StatusText": "Online",
+						"DetailImage": "sap-icon://expense-report",
+						"DetailImageIsCircular": false
+					}
+				},
+				{
+					"Separators": {
+						"TopSectionSeparator": false,
+						"BottomSectionSeparator": true,
+						"HeaderSeparator": true,
+						"FooterSeparator": true,
+						"ControlSeparator": true
+					},
+					"Layout": {
+						"LayoutType": "Vertical",
+						"HorizontalAlignment": "Leading"
+					},
+					"_Type": "Section.Type.ButtonTable",
+					"_Name": "SectionButtonTable_ReembolsoService",
+					"Header": {
+						"_Type": "SectionCommon.Type.Header",
+						"_Name": "SectionHeader_ReembolsoService",
+						"AccessoryType": "None",
+						"UseTopPadding": true,
+						"Caption": "Ações Rápidas"
+					},
+					"Visible": true,
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Buttons": [
+						{
+							"_Type": "ButtonTable.Type.Button",
+							"_Name": "BtnPendentes",
+							"Title": "Reembolsos Abertos (Pendentes)",
+							"Alignment": "Center",
+							"Image": "sap-icon://pending",
+							"ImagePosition": "Leading",
+							"FullWidth": true,
+							"Visible": true,
+							"Enabled": true,
+							"OnPress": "/ReembolsoApp/Actions/ReembolsoService/SolicitacoesReembolso/InitAndNavPendentes.action",
+							"ButtonType": "Text"
+						},
+						{
+							"_Type": "ButtonTable.Type.Button",
+							"_Name": "BtnAprovados",
+							"Title": "Reembolsos Aprovados",
+							"Alignment": "Center",
+							"Image": "sap-icon://accept",
+							"ImagePosition": "Leading",
+							"FullWidth": true,
+							"Visible": true,
+							"Enabled": true,
+							"OnPress": "/ReembolsoApp/Actions/ReembolsoService/SolicitacoesReembolso/InitAndNavAprovados.action",
+							"ButtonType": "Text"
+						},
+						{
+							"_Type": "ButtonTable.Type.Button",
+							"_Name": "BtnRejeitados",
+							"Title": "Reembolsos Rejeitados",
+							"Alignment": "Center",
+							"Image": "sap-icon://decline",
+							"ImagePosition": "Leading",
+							"FullWidth": true,
+							"Visible": true,
+							"Enabled": true,
+							"OnPress": "/ReembolsoApp/Actions/ReembolsoService/SolicitacoesReembolso/InitAndNavRejeitados.action",
+							"ButtonType": "Text"
+						},
+						{
+							"_Type": "ButtonTable.Type.Button",
+							"_Name": "BtnCriarReembolso",
+							"Title": "Criar Novo Reembolso",
+							"Alignment": "Center",
+							"Image": "sap-icon://add",
+							"ImagePosition": "Leading",
+							"FullWidth": true,
+							"Visible": true,
+							"Enabled": true,
+							"OnPress": "/ReembolsoApp/Actions/ReembolsoService/SolicitacoesReembolso/InitAndNavCriar.action",
+							"ButtonType": "Text"
+						}
+					]
+				}
+			]
+		}
+	],
+	"_Type": "Page",
+	"_Name": "Main",
+	"ActionBar": {
+		"Items": [
+			{
+				"_Type": "Control.Type.ActionBarItem",
+				"_Name": "ActionBarItem0",
+				"Caption": "Menu",
+				"Width": 18,
+				"Icon": "sap-icon://customer",
+				"Position": "Right",
+				"IsIconCircular": false,
+				"Visible": true,
+				"OnPress": "/ReembolsoApp/Actions/Application/UserMenuPopover.action"
+			},
+			{
+				"_Type": "Control.Type.ActionBarItem",
+				"_Name": "SwitchRoleItem",
+				"Caption": "Alternar Perfil",
+				"Width": 18,
+				"Icon": "sap-icon://synchronize",
+				"Position": "Right",
+				"IsIconCircular": false,
+				"Visible": true,
+				"OnPress": "/ReembolsoApp/Rules/Application/SwitchRole.js"
+			}
+		],
+		"_Name": "ActionBar1",
+		"_Type": "Control.Type.ActionBar",
+		"Caption": "Painel Principal",
+		"PreferredCaptionSize": "Large"
+	}
+}

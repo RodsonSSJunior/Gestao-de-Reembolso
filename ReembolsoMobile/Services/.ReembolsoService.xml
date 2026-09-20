@@ -1,0 +1,166 @@
+<edmx:Edmx xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Version="4.0">
+    <edmx:Reference Uri="https://sap.github.io/odata-vocabularies/vocabularies/Common.xml">
+        <edmx:Include Alias="Common" Namespace="com.sap.vocabularies.Common.v1" />
+    </edmx:Reference>
+    <edmx:Reference
+        Uri="https://oasis-tcs.github.io/odata-vocabularies/vocabularies/Org.OData.Core.V1.xml">
+        <edmx:Include Alias="Core" Namespace="Org.OData.Core.V1" />
+    </edmx:Reference>
+    <edmx:Reference Uri="https://sap.github.io/odata-vocabularies/vocabularies/UI.xml">
+        <edmx:Include Alias="UI" Namespace="com.sap.vocabularies.UI.v1" />
+    </edmx:Reference>
+    <edmx:DataServices>
+        <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="ReembolsoService">
+            <Annotation Term="Core.Links">
+                <Collection>
+                    <Record>
+                        <PropertyValue Property="rel" String="author" />
+                        <PropertyValue Property="href" String="https://cap.cloud.sap" />
+                    </Record>
+                </Collection>
+            </Annotation>
+            <EntityContainer Name="EntityContainer">
+                <EntitySet Name="SolicitacoesReembolso"
+                    EntityType="ReembolsoService.SolicitacoesReembolso" />
+                <FunctionImport Name="getMyProfile" Function="ReembolsoService.getMyProfile" />
+                <ActionImport Name="aprovarReembolso" Action="ReembolsoService.aprovarReembolso" />
+                <ActionImport Name="rejeitarReembolso" Action="ReembolsoService.rejeitarReembolso" />
+            </EntityContainer>
+            <EntityType Name="SolicitacoesReembolso">
+                <Key>
+                    <PropertyRef Name="ID" />
+                </Key>
+                <Property Name="ID" Type="Edm.Guid" Nullable="false" />
+                <Property Name="createdAt" Type="Edm.DateTimeOffset" Precision="7" />
+                <Property Name="createdBy" Type="Edm.String" MaxLength="255" />
+                <Property Name="modifiedAt" Type="Edm.DateTimeOffset" Precision="7" />
+                <Property Name="modifiedBy" Type="Edm.String" MaxLength="255" />
+                <Property Name="descricao" Type="Edm.String" MaxLength="100" />
+                <Property Name="valor" Type="Edm.Decimal" Precision="10" Scale="2" />
+                <Property Name="categoria" Type="Edm.String" MaxLength="100" />
+                <Property Name="status" Type="Edm.String" MaxLength="100" DefaultValue="PENDENTE" />
+                <Property Name="moeda" Type="Edm.String" MaxLength="3" DefaultValue="BRL" />
+                <Property Name="valorConvertido" Type="Edm.Decimal" Precision="10" Scale="2" />
+                <Property Name="motivoAnalise" Type="Edm.String" MaxLength="255" />
+            </EntityType>
+            <ComplexType Name="return_ReembolsoService_getMyProfile">
+                <Property Name="email" Type="Edm.String" />
+                <Property Name="role" Type="Edm.String" />
+            </ComplexType>
+            <Action Name="aprovarReembolso" IsBound="true">
+                <Parameter Name="in" Type="ReembolsoService.SolicitacoesReembolso" />
+            </Action>
+            <Action Name="rejeitarReembolso" IsBound="true">
+                <Parameter Name="in" Type="ReembolsoService.SolicitacoesReembolso" />
+                <Parameter Name="motivo" Type="Edm.String" />
+            </Action>
+            <Function Name="getMyProfile" IsBound="false" IsComposable="false">
+                <ReturnType Type="ReembolsoService.return_ReembolsoService_getMyProfile" />
+            </Function>
+            <Annotations Target="ReembolsoService.SolicitacoesReembolso">
+                <Annotation Term="UI.LineItem">
+                    <Collection>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="descricao" />
+                            <PropertyValue Property="Label" String="Descrição" />
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="valor" />
+                            <PropertyValue Property="Label" String="Valor Original" />
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="categoria" />
+                            <PropertyValue Property="Label" String="Categoria" />
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="status" />
+                            <PropertyValue Property="Label" String="Status" />
+                        </Record>
+                        <Record Type="UI.DataFieldForAction">
+                            <PropertyValue Property="Action"
+                                String="ReembolsoService.aprovarReembolso" />
+                            <PropertyValue Property="Label" String="Aprovar Reembolso" />
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="moeda" />
+                            <PropertyValue Property="Label" String="Moeda" />
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="valorConvertido" />
+                            <PropertyValue Property="Label" String="Valor Convertido" />
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="motivoAnalise" />
+                            <PropertyValue Property="Label" String="Motivo da Análise" />
+                        </Record>
+                    </Collection>
+                </Annotation>
+                <Annotation Term="UI.FieldGroup" Qualifier="Detalhes">
+                    <Record Type="UI.FieldGroupType">
+                        <PropertyValue Property="Data">
+                            <Collection>
+                                <Record Type="UI.DataField">
+                                    <PropertyValue Property="Value" Path="descricao" />
+                                    <PropertyValue Property="Label" String="Descrição" />
+                                </Record>
+                                <Record Type="UI.DataField">
+                                    <PropertyValue Property="Value" Path="valor" />
+                                    <PropertyValue Property="Label" String="Valor Original" />
+                                </Record>
+                                <Record Type="UI.DataField">
+                                    <PropertyValue Property="Value" Path="categoria" />
+                                    <PropertyValue Property="Label" String="Categoria" />
+                                </Record>
+                                <Record Type="UI.DataField">
+                                    <PropertyValue Property="Value" Path="moeda" />
+                                    <PropertyValue Property="Label" String="Moeda(BRL, USD, EUR)" />
+                                </Record>
+                            </Collection>
+                        </PropertyValue>
+                    </Record>
+                </Annotation>
+                <Annotation Term="UI.Facets">
+                    <Collection>
+                        <Record Type="UI.ReferenceFacet">
+                            <PropertyValue Property="ID" String="SecaoDetalhes" />
+                            <PropertyValue Property="Label" String="Informações da Solicitação" />
+                            <PropertyValue Property="Target"
+                                AnnotationPath="@UI.FieldGroup#Detalhes" />
+                        </Record>
+                    </Collection>
+                </Annotation>
+            </Annotations>
+            <Annotations Target="ReembolsoService.SolicitacoesReembolso/ID">
+                <Annotation Term="Core.ComputedDefaultValue" Bool="true" />
+            </Annotations>
+            <Annotations Target="ReembolsoService.SolicitacoesReembolso/createdAt">
+                <Annotation Term="UI.HiddenFilter" Bool="true" />
+                <Annotation Term="UI.ExcludeFromNavigationContext" Bool="true" />
+                <Annotation Term="Core.Immutable" Bool="true" />
+                <Annotation Term="Core.Computed" Bool="true" />
+                <Annotation Term="Common.Label" String="Criado em" />
+            </Annotations>
+            <Annotations Target="ReembolsoService.SolicitacoesReembolso/createdBy">
+                <Annotation Term="UI.HiddenFilter" Bool="true" />
+                <Annotation Term="UI.ExcludeFromNavigationContext" Bool="true" />
+                <Annotation Term="Core.Immutable" Bool="true" />
+                <Annotation Term="Core.Computed" Bool="true" />
+                <Annotation Term="Core.Description" String="ID exclusivo do usuário" />
+                <Annotation Term="Common.Label" String="Criado por" />
+            </Annotations>
+            <Annotations Target="ReembolsoService.SolicitacoesReembolso/modifiedAt">
+                <Annotation Term="UI.HiddenFilter" Bool="true" />
+                <Annotation Term="UI.ExcludeFromNavigationContext" Bool="true" />
+                <Annotation Term="Core.Computed" Bool="true" />
+                <Annotation Term="Common.Label" String="Modificado em" />
+            </Annotations>
+            <Annotations Target="ReembolsoService.SolicitacoesReembolso/modifiedBy">
+                <Annotation Term="UI.HiddenFilter" Bool="true" />
+                <Annotation Term="UI.ExcludeFromNavigationContext" Bool="true" />
+                <Annotation Term="Core.Computed" Bool="true" />
+                <Annotation Term="Core.Description" String="ID exclusivo do usuário" />
+                <Annotation Term="Common.Label" String="Modificado por" />
+            </Annotations>
+        </Schema>
+    </edmx:DataServices>
+</edmx:Edmx>

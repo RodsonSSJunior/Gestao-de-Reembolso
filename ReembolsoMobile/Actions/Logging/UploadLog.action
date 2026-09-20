@@ -1,0 +1,10 @@
+{
+    "ActionResult": {
+        "_Name": "UploadLog"
+    },
+    "ActivityIndicatorText": "$(L,Action_Log_Upload_Activity)",
+    "OnFailure": "/ReembolsoApp/Actions/Logging/LogUploadFailure.action",
+    "OnSuccess": "/ReembolsoApp/Actions/Logging/LogUploadSuccessful.action",
+    "ShowActivityIndicator": false,
+    "_Type": "Action.Type.Logger.Upload"
+}

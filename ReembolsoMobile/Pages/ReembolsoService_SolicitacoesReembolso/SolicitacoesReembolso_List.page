@@ -1,0 +1,58 @@
+{
+    "_Name": "SolicitacoesReembolso_List",
+    "_Type": "Page",
+    "ActionBar": {
+        "Items": [
+            {
+                "OnPress": "/ReembolsoApp/Actions/ReembolsoService/SolicitacoesReembolso/NavToSolicitacoesReembolso_Create.action",
+                "Position": "Right",
+                "SystemItem": "Add",
+                "_Type": "Control.Type.ActionBarItem"
+            }
+        ],
+        "Caption": "$(L,SolicitacoesReembolso)",
+        "_Type": "Control.Type.ActionBar"
+    },
+    "Controls": [
+        {
+            "_Name": "SectionedTable",
+            "_Type": "Control.Type.SectionedTable",
+            "DataSubscriptions": [
+                "SolicitacoesReembolso"
+            ],
+            "Sections": [
+                {
+                    "_Name": "SectionObjectTable",
+                    "_Type": "Section.Type.ObjectTable",
+                    "Header": {
+                        "UseTopPadding": false,
+                        "_Type": "SectionCommon.Type.Header"
+                    },
+                    "ObjectCell": {
+                        "AccessoryType": "DisclosureIndicator",
+                        "Title": "{descricao}",
+                        "Subhead": "Categoria: {categoria}",
+                        "Footnote": "Moeda: {moeda}",
+                        "StatusText": "{valor}",
+                        "StatusImage": "sap-icon://money-bills",
+                        "SubstatusText": "{status}",
+                        "Styles": {
+                            "StatusText": "CurrencyStyle",
+                            "SubstatusText": "StatusColorStyle"
+                        },
+                        "OnPress": "/ReembolsoApp/Actions/ReembolsoService/SolicitacoesReembolso/NavToSolicitacoesReembolso_Detail.action",
+                        "_Type": "ObjectTable.Type.ObjectCell"
+                    },
+                    "EmptySection": {
+                        "Caption": "No record found!"
+                    },
+                    "Target": {
+                        "EntitySet": "SolicitacoesReembolso",
+                        "Service": "/ReembolsoApp/Services/ReembolsoService.service",
+                        "QueryOptions": ""
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+  "name": "gestao-reembolso",
+  "version": "1.0.0",
+  "dependencies": {
+    "@cap-js/hana": "^2",
+    "@cap-js/sqlite": "^3.1.1",
+    "@sap/cds": "^10.1.1",
+    "@sap/hdi-deploy": "^5.7.0",
+    "@sap/xssec": "^4.15.0",
+    "passport": "^0.7.0"
+  },
+  "devDependencies": {
+    "@sap/cds-dk": "^9",
+    "@sap/hana-client": "^2.30.27",
+    "sqlite3": "^6.0.1"
+  },
+  "scripts": {
+    "start": "cds-serve"
+  },
+  "private": true,
+  "cds": {
+    "build": {
+      "target": "gen",
+      "tasks": [
+        {
+          "src": "db",
+          "for": "hana"
+        },
+        {
+          "src": "srv",
+          "for": "nodejs"
+        }
+      ]
+    },
+    "requires": {
+      "db": "hana",
+      "auth": {
+        "kind": "mocked",
+        "users": {
+          "solicitante": {
+            "password": "123",
+            "roles": [
+              "SOLICITANTE"
+            ]
+          },
+          "aprovador": {
+            "password": "123",
+            "roles": [
+              "APROVADOR"
+            ]
+          }
+        }
+      }
+    },
+    "[production]": {
+      "requires": {
+        "db": {
+          "kind": "hana"
+        }
+      }
+    },
+    "[development]": {
+      "requires": {
+        "db": {
+          "kind": "sqlite",
+          "credentials": {
+            "url": "db.sqlite"
+          }
+        }
+      }
+    }
+  }
+}

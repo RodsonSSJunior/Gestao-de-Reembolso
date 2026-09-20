@@ -1,0 +1,55 @@
+{
+  "xsappname": "gestao-reembolso",
+  "oauth2-configuration": {
+    "redirect-uris": [
+      "https://a9f81c0dtrial-dev-com-empresa-reembolso.cfapps.us10-001.hana.ondemand.com"
+    ]
+  },
+  "tenant-mode": "dedicated",
+  "description": "Security profile do gestao-reembolso (XSUAA)",
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.SOLICITANTE",
+      "description": "Pode criar e consultar suas próprias solicitações de reembolso"
+    },
+    {
+      "name": "$XSAPPNAME.APROVADOR",
+      "description": "Pode aprovar ou rejeitar solicitações de reembolso"
+    }
+  ],
+  "attributes": [],
+  "role-templates": [
+    {
+      "name": "SOLICITANTE",
+      "description": "Colaborador que solicita reembolso",
+      "scope-references": [
+        "$XSAPPNAME.SOLICITANTE"
+      ],
+      "attribute-references": []
+    },
+    {
+      "name": "APROVADOR",
+      "description": "Gestor/aprovador de reembolsos",
+      "scope-references": [
+        "$XSAPPNAME.APROVADOR"
+      ],
+      "attribute-references": []
+    }
+  ],
+  "role-collections": [
+    {
+      "name": "GestaoReembolso-Solicitante",
+      "description": "Role collection para colaboradores solicitantes",
+      "role-template-references": [
+        "$XSAPPNAME.SOLICITANTE"
+      ]
+    },
+    {
+      "name": "GestaoReembolso-Aprovador",
+      "description": "Role collection para aprovadores",
+      "role-template-references": [
+        "$XSAPPNAME.APROVADOR"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+    "_Name": "SolicitacoesReembolso_List_Aprovados",
+    "_Type": "Page",
+    "ActionBar": {
+        "Caption": "Reembolsos Aprovados",
+        "_Type": "Control.Type.ActionBar"
+    },
+    "Controls": [
+        {
+            "_Name": "SectionedTable",
+            "_Type": "Control.Type.SectionedTable",
+            "DataSubscriptions": [
+                "SolicitacoesReembolso"
+            ],
+            "Sections": [
+                {
+                    "_Name": "SectionObjectTable",
+                    "_Type": "Section.Type.ObjectTable",
+                    "Header": {
+                        "UseTopPadding": false,
+                        "_Type": "SectionCommon.Type.Header"
+                    },
+                    "ObjectCell": {
+                        "AccessoryType": "DisclosureIndicator",
+                        "Title": "{descricao}",
+                        "Subhead": "Categoria: {categoria}",
+                        "Footnote": "Moeda: {moeda}",
+                        "StatusText": "{valor}",
+                        "StatusImage": "sap-icon://money-bills",
+                        "SubstatusText": "{status}",
+                        "Styles": {
+                            "StatusText": "CurrencyStyle",
+                            "SubstatusText": "StatusColorStyle"
+                        },
+                        "OnPress": "/ReembolsoApp/Actions/ReembolsoService/SolicitacoesReembolso/NavToSolicitacoesReembolso_Detail.action",
+                        "_Type": "ObjectTable.Type.ObjectCell"
+                    },
+                    "EmptySection": {
+                        "Caption": "Nenhuma solicitação aprovada"
+                    },
+                    "Target": {
+                        "EntitySet": "SolicitacoesReembolso",
+                        "Service": "/ReembolsoApp/Services/ReembolsoService.service",
+                        "QueryOptions": "$filter=status eq 'APROVADO_MANUAL' or status eq 'APROVADO_AUTO'"
+                    }
+                }
+            ]
+        }
+    ]
+}

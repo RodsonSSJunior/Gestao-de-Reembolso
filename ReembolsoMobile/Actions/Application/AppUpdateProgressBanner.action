@@ -1,0 +1,7 @@
+{
+    "Animated": true,
+    "CompletionTimeout": 3,
+    "Message": "$(L,Action_App_Update_Checking)",
+    "OnSuccess": "/ReembolsoApp/Actions/Application/AppUpdate.action",
+    "_Type": "Action.Type.ProgressBanner"
+}

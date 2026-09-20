@@ -1,0 +1,8 @@
+{
+	"DestinationName": "com.empresa.reembolso",
+	"OfflineEnabled": false,
+	"SourceType": "Mobile",
+	"Headers": {
+		"Authorization": "/ReembolsoApp/Rules/Application/GetAuthHeader.js"
+	}
+}

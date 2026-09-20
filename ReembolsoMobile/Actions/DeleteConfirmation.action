@@ -1,0 +1,10 @@
+{
+    "_Type": "Action.Type.Message",
+    "Message": "$(L,Action_Delete_Confirm_Message)",
+    "Title": "$(L,Action_Confirmation_Title)",
+    "OKCaption": "$(L,Action_OK)",
+    "CancelCaption": "$(L,Action_Cancel)",
+    "ActionResult": {
+        "_Name": "DeleteConfirmation"
+    }
+}

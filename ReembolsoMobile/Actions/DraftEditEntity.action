@@ -1,0 +1,19 @@
+{
+    "_Type": "Action.Type.ODataService.DraftEnabled.Edit",
+    "Target": {
+        "Service": "/ReembolsoApp/Services/ReembolsoService.service",
+        "EntitySet": "SolicitacoesReembolso",
+        "ReadLink": "{@odata.readLink}"
+    },
+    "ShowActivityIndicator": true,
+    "ActionResult": {
+        "_Name": "update"
+    },
+    "OnSuccess": {
+        "Name": "/ReembolsoApp/Actions/UpdateEntitySuccessMessage.action",
+        "Properties": {
+            "Message": "$(L,Action_Draft_Edit)"
+        }
+    },
+    "OnFailure": "/ReembolsoApp/Actions/UpdateEntityFailureMessage.action"
+}

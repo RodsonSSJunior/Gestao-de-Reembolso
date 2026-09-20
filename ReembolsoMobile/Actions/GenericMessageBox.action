@@ -1,0 +1,8 @@
+{
+    "_Type": "Action.Type.Message",
+    "ActionResult": {
+        "_Name": "GenericMessageBox"
+    },
+    "Message": "$(L,Action_Generic_Message)",
+    "OKCaption": "$(L,Action_OK)"
+}

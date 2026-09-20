@@ -1,0 +1,39 @@
+{
+    "PopoverItems": [{
+            "Enabled": true,
+            "Icon": "sap-icon://headset",
+            "OnPress": "/ReembolsoApp/Actions/Application/NavToSupport.action",
+            "Title": "$(L,Action_Menu_Support)",
+            "Visible": true
+        },
+        {
+            "Enabled": true,
+            "Icon": "sap-icon://refresh",
+            "OnPress": "/ReembolsoApp/Actions/Application/AppUpdateProgressBanner.action",
+            "Title": "$(L,Action_Menu_Check_Updates)",
+            "Visible": "$(PLT,true,true,false)"
+        },
+        {
+            "Enabled": true,
+            "Icon": "sap-icon://hint",
+            "OnPress": "/ReembolsoApp/Actions/Application/NavToAbout.action",
+            "Title": "$(L,Action_Menu_About)",
+            "Visible": true
+        },
+        {
+            "Enabled": true,
+            "Icon": "sap-icon://reset",
+            "OnPress": "/ReembolsoApp/Actions/Application/ResetMessage.action",
+            "Title": "$(L,Action_Menu_Reset)",
+            "Visible": true
+        },
+        {
+            "Enabled": true,
+            "Icon": "sap-icon://log",
+            "OnPress": "/ReembolsoApp/Actions/Application/Logout.action",
+            "Title": "$(L,Action_Menu_Logout)",
+            "Visible": "/ReembolsoApp/Rules/Application/ClientIsMultiUserMode.js"
+        }
+    ],
+    "_Type": "Action.Type.PopoverMenu"
+}
