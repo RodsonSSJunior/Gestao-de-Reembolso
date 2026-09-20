@@ -13,7 +13,7 @@ service ReembolsoService {
     // endpoint de Media Entity padrão do CAP (/Anexos(ID)/content).
     entity Anexos                as projection on db.Anexos;
 
-    function getMyProfile()                              returns {
+    function getMyProfile() returns {
         email : String;
         role  : String;
     };

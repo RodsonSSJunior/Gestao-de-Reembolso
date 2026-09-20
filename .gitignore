@@ -1,0 +1,32 @@
+# --- Node / CAP ---
+node_modules/
+target/
+_out/
+gen/
+.cdsrc-private.json
+default-*.json
+*.sqlite
+
+# --- MTA (deploy) ---
+mta_archives/
+mta-op-*/
+*_mta_build_tmp
+*.mtar
+
+# --- @cap-js/cds-typer ---
+@cds-models
+
+# --- SAP MDK (mobile) ---
+**/.build/
+**/.che/
+**/.typings/
+
+# --- Ambiente / editor ---
+.vscode/
+.DS_Store
+Thumbs.db
+
+# --- Segredos (por precaução, caso algum dia existam) ---
+.env
+*.pem
+*.key
